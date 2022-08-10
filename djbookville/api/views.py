@@ -5,7 +5,8 @@ from .serializers import BookSerializer, ShopSerializer, UserSerializer
 from rest_framework.permissions import IsAuthenticated, IsAdminUser
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
-from .tasks import SendIsbnEthnikiVivliothiki   
+from .tasks import SendIsbnEthnikiVivliothiki
+from celery.result import ResultBase
 
 class List_all_owners(ListAPIView):
     
@@ -224,7 +225,10 @@ class SearchBookstoreCatalog(RetrieveAPIView):
 @api_view(['GET'])
 def ImportFromEthnikiVivliothiki(request):
     isbn = '9786185642112'
+    print('before sending')
     info = SendIsbnEthnikiVivliothiki.delay(isbn)
+    [v for v in info.collect() if not isinstance(v, (ResultBase, tuple))]
+    
     book = Book.objects.create(title=info['title'])
 
     serializer = BookSerializer(book,many=True)

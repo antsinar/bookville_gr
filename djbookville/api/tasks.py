@@ -11,20 +11,24 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support import expected_conditions as EC
 from celery.utils.log import get_task_logger
 
+from djbookville.celery import app
+
 import time
 
 logger = get_task_logger(__name__)
 
-@shared_task(name="SendIsbnEthnikiVivliothiki")
-def SendIsbnEthnikiVivliothiki(isbn):
-
+@app.task(bind=True, name="SendIsbnEthnikiVivliothiki")
+def SendIsbnEthnikiVivliothiki(self,isbn):
+    
+    print('connected to task')
     options = Options()
-    options.headless = True
+    options.headless = False
+    options.add_argument("--window-size=1920,1080")
 
     driver = webdriver.Firefox(options=options)
-    
+    print('got web driver')
     driver.get('https://isbn.nlg.gr/index.php?search_type_asked=search_nlg_books')
-
+    print('connected to nlg')
     time.sleep(0.25)
     
     find_field = driver.find_element(By.XPATH,"//input[@id='isbn_from']")
@@ -35,13 +39,15 @@ def SendIsbnEthnikiVivliothiki(isbn):
     
     if len(isbn) == 13:
         if isbn[3:6] == '618':
-            find_select = Select(driver.find_element(By.XPATH, "//select[@id=sel_isbn_class]"))
+            find_select = Select(driver.find_element(By.ID, "sel_isbn_class"))
             find_select.select_by_value("618")
+            print('selected value')
 
             isbn_ready = isbn[6:13]
         elif isbn[3:6] == '960':
-            find_select = Select(driver.find_element(By.XPATH, "//select[@id=sel_isbn_class]"))
+            find_select = Select(driver.find_element(By.ID, "sel_isbn_class"))
             find_select.select_by_value("960")
+            print('selected value')
 
             isbn_ready = isbn[6:13]
         else:
@@ -49,7 +55,7 @@ def SendIsbnEthnikiVivliothiki(isbn):
 
     find_field.send_keys(isbn_ready)
 
-    find_button = driver.find_element(By.CLASS_NAME,"btn btn-primary")
+    find_button = driver.find_element(By.CLASS_NAME,"btn-primary")
     find_button.click()
 
     time.sleep(0.25)
@@ -66,8 +72,10 @@ def SendIsbnEthnikiVivliothiki(isbn):
             
             td_tags = driver.find_elements(By.TAG_NAME, "td")
             info = {}
-            title = td_tags[1].innerHtml
+            title = td_tags[1]
+            print(f'got title! {title}')
             info['title'] = title
+            driver.close()
         except TimeoutError:
             logger.info('Timeout error occured 1')
             driver.quit()
