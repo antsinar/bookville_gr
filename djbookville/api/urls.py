@@ -13,6 +13,10 @@ from .views import (
     SearchBookstoreByName,
     SearchBookstoreByTown,
     SearchBookstoreCatalog,
+    ImportFromEthnikiVivliothiki,
+    ImportFromPoliteia,
+    ImportExcelFileEthnikiViVliothiki,
+    ImportExcelFilePoliteia
 )
 from .models import *
 from .serializers import *
@@ -34,6 +38,7 @@ urlpatterns = [
     path('search/bookstore/town/<slug:slug>/',SearchBookstoreByTown.as_view(),name='search-bookstore-town'),
     path('search/bookstore/name/<slug:slug>/catalog/',SearchBookstoreCatalog.as_view(),name='search-bookstore-catalog'),
 
-
-
+    path('import/file/nlg/', ImportExcelFileEthnikiViVliothiki, name='import-excel-file-ethniki-vivliothiki'),
+    path('import/isbn/nlg/', ImportFromEthnikiVivliothiki, name="import-from-ethniki-vivliothiki"),
+    path('import/isbn/politeia/', ImportFromPoliteia, name="import-from-politeia"),
 ]

@@ -5,6 +5,7 @@ from .models import Book, Shop, User
 from .serializers import BookSerializer, ShopSerializer, UserSerializer
 from rest_framework.permissions import IsAuthenticated, IsAdminUser
 from rest_framework.response import Response
+from rest_framework.decorators import api_view
 
 class List_all_owners(ListAPIView):
     
@@ -28,11 +29,11 @@ class List_all_books(ListAPIView):
         queryset = self.get_queryset()
         serializer = BookSerializer(queryset, many=True)
         
-        dict = {}
+        
         dictionary_of_dictionaries = {}
         for x in range(0,len(serializer.data)):
             items = list(serializer.data[x].items())
-            
+            dict = {}
             for y in items:
                 if y[0] == 'id':
                     dict['id'] = f"{y[1]}"
@@ -66,23 +67,28 @@ class List_all_stores(ListAPIView):
         queryset = self.get_queryset()
         serializer = ShopSerializer(queryset, many=True)
         
-        dict = {}
+        
         dictionary_of_dictionaries = {}
         for x in range(0,len(serializer.data)):
             items = list(serializer.data[x].items())
-            
+
             for y in items:
+                dict = {}
                 if y[0] == 'bookstore_name':
                     dict['bookstore_name'] = f"{y[1].replace('_',' ')}"
+                    
                 if y[0] == 'address':
                     dict['address'] = f"{y[1]}"
+                    
                 if y[0] == 'town':
                     dict['town'] = f"{y[1].replace('_',' ')}"
+                    
                 if y[0] == 'owner':
                     dict['owner'] = f"{y[1]}"
                 
+                
             dictionary_of_dictionaries[f'{x}'] = dict
-                    
+                
         return Response(dictionary_of_dictionaries)
 
 class CreateBook(CreateAPIView):
@@ -136,38 +142,7 @@ class CreateBookstore(CreateAPIView):
         
         return super().post(request,*args,**kwargs)
 
-    #def get_serializer(self, *args, **kwargs):
-        
-    #    serializer_class = self.get_serializer_class()
-    #    kwargs["context"] = self.get_serializer_context()
-
-        
-    #    if (bookstore_name := self.request.data.get("bookstore_name")) and (
-    #        town := self.request.data.get("town")
-    #    ):
-            
-    #        post = self.request.data.copy()
-    #         
-    #        post['bookstore_name'] = bookstore_name.replace(' ','_')
-    #        post['town'] = town.replace(' ','_')
-            
-    #        serializer = serializer_class(data={
-    #            'bookstore_name': post['bookstore_name'],
-    #            'address': post['address'],
-    #            'town': post['town'],
-    #            'owner': post['owner']
-    #        })
-            
-    #        try:
-    #            serializer.is_valid(raise_exception=True) 
-    #            kwargs["data"] = post
-    #        except serializer.ValidationError:
-    #            return Response(serializer.errors)
-    #        else:
-    #            return Response(serializer.data)
-
-    #    return serializer_class(*args, **kwargs)
-
+    
 
 class SearchBookByTitle(RetrieveAPIView):
     
@@ -220,7 +195,7 @@ class SearchBookstoreByName(RetrieveAPIView):
 
     def get(self, request, *args, **kwargs):
         slug = self.kwargs.get('slug')
-        shop = Shop.objects.filter(name__icontains=slug)
+        shop = Shop.objects.filter(bookstore_name__icontains=slug)
         serializer = ShopSerializer(shop,many=True)
         return Response(serializer.data)
 
@@ -242,6 +217,46 @@ class SearchBookstoreCatalog(RetrieveAPIView):
     def get(self, request, *args, **kwargs):
         slug = self.kwargs.get('slug')
         shop = get_object_or_404(Shop, bookstore_name=slug.replace(" ","_"))
-        catalog = Book.objects.filter(shop__name=shop.name)
+        catalog = Book.objects.filter(shop__bookstore_name=shop.bookstore_name)
         serializer = BookSerializer(catalog,many=True)
         return Response(serializer.data)
+
+@api_view(['POST'])
+def ImportFromEthnikiVivliothiki(request):
+    # TODO Set up Celery, Redis and Selenium
+    # TODO Connect To isbn.nlg.gr
+    # TODO Enter isbn to correct field 
+    # TODO Click + button
+    # TODO Retrieve information
+    pass
+
+@api_view(['POST'])
+def ImportFromPoliteia(request):
+    # TODO Set up Celery, Redis and Selenium
+    # TODO Connect To politeianet.gr
+    # TODO Enter isbn to correct field 
+    # TODO Click first entry
+    # TODO Retrieve information
+    pass
+
+@api_view(['POST'])
+def ImportExcelFileEthnikiViVliothiki(request):
+    # TODO Set up Celery, Redis and Selenium
+    # TODO Set up Pandas
+    # TODO Export isbns from excel
+    # TODO Connect To politeianet.gr
+    # TODO Enter isbn to correct field 
+    # TODO Click first entry
+    # TODO Retrieve information
+    pass
+
+@api_view(['POST'])
+def ImportExcelFilePoliteia(request):
+    # TODO Set up Celery, Redis and Selenium
+    # TODO Set up Pandas
+    # TODO Export isbns from excel
+    # TODO Connect To politeianet.gr
+    # TODO Enter isbn to correct field 
+    # TODO Click first entry
+    # TODO Retrieve information
+    pass
