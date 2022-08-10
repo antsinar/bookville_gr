@@ -1,4 +1,3 @@
-from string import whitespace
 from django.shortcuts import get_object_or_404
 from rest_framework.generics import ListAPIView, CreateAPIView, RetrieveAPIView
 from .models import Book, Shop, User
@@ -6,6 +5,7 @@ from .serializers import BookSerializer, ShopSerializer, UserSerializer
 from rest_framework.permissions import IsAuthenticated, IsAdminUser
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
+from .tasks import SendIsbnEthnikiVivliothiki   
 
 class List_all_owners(ListAPIView):
     
@@ -221,25 +221,24 @@ class SearchBookstoreCatalog(RetrieveAPIView):
         serializer = BookSerializer(catalog,many=True)
         return Response(serializer.data)
 
-@api_view(['POST'])
+@api_view(['GET'])
 def ImportFromEthnikiVivliothiki(request):
-    # TODO Set up Celery, Redis and Selenium
-    # TODO Connect To isbn.nlg.gr
-    # TODO Enter isbn to correct field 
-    # TODO Click + button
-    # TODO Retrieve information
-    pass
+    isbn = '9786185642112'
+    info = SendIsbnEthnikiVivliothiki.delay(isbn)
+    book = Book.objects.create(title=info['title'])
 
-@api_view(['POST'])
+    serializer = BookSerializer(book,many=True)
+    return Response(serializer.data)
+
+@api_view(['GET'])
 def ImportFromPoliteia(request):
-    # TODO Set up Celery, Redis and Selenium
     # TODO Connect To politeianet.gr
     # TODO Enter isbn to correct field 
     # TODO Click first entry
     # TODO Retrieve information
     pass
 
-@api_view(['POST'])
+@api_view(['GET'])
 def ImportExcelFileEthnikiViVliothiki(request):
     # TODO Set up Celery, Redis and Selenium
     # TODO Set up Pandas
@@ -250,7 +249,7 @@ def ImportExcelFileEthnikiViVliothiki(request):
     # TODO Retrieve information
     pass
 
-@api_view(['POST'])
+@api_view(['GET'])
 def ImportExcelFilePoliteia(request):
     # TODO Set up Celery, Redis and Selenium
     # TODO Set up Pandas

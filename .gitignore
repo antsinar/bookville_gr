@@ -1,4 +1,7 @@
+# webdrivers for selenium
 chromedriver.exe
+geckodriver.exe
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
