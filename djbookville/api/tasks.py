@@ -1,7 +1,5 @@
 from __future__ import absolute_import, unicode_literals
 
-from celery import shared_task
-
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.keys import Keys
@@ -17,14 +15,14 @@ import time
 
 logger = get_task_logger(__name__)
 
-@app.task(bind=True, name="SendIsbnEthnikiVivliothiki")
-def SendIsbnEthnikiVivliothiki(self,isbn):
+@app.task(name="IsbnNlg")
+def IsbnNlg(isbn):
     
     print('connected to task')
     options = Options()
     options.headless = False
     options.add_argument("--window-size=1920,1080")
-
+    
     driver = webdriver.Firefox(options=options)
     print('got web driver')
     driver.get('https://isbn.nlg.gr/index.php?search_type_asked=search_nlg_books')
