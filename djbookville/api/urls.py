@@ -1,7 +1,10 @@
 from gc import get_objects
 from django.urls import path
+
+from .tasks import IsbnNlg, IsbnPoliteia
 from .views import ( 
-    CreateBook, List_all_books,
+    CreateBook, 
+    List_all_books,
     CreateBookstore, 
     List_all_stores, 
     List_all_owners,
@@ -13,11 +16,10 @@ from .views import (
     SearchBookstoreByName,
     SearchBookstoreByTown,
     SearchBookstoreCatalog,
-    ImportFromEthnikiVivliothiki,
-    ImportFromPoliteia,
     ImportExcelFileEthnikiViVliothiki,
     ImportExcelFilePoliteia
 )
+
 from .models import *
 from .serializers import *
 
@@ -39,6 +41,6 @@ urlpatterns = [
     path('search/bookstore/name/<slug:slug>/catalog/',SearchBookstoreCatalog.as_view(),name='search-bookstore-catalog'),
 
     path('import/file/nlg/', ImportExcelFileEthnikiViVliothiki, name='import-excel-file-ethniki-vivliothiki'),
-    path('import/isbn/nlg/', ImportFromEthnikiVivliothiki, name="import-from-ethniki-vivliothiki"),
-    path('import/isbn/politeia/', ImportFromPoliteia, name="import-from-politeia"),
+    path('import/isbn/nlg/', IsbnNlg, name="isbn-ethniki-vivliothiki"),
+    path('import/isbn/politeia/', IsbnPoliteia, name="isbn-politeia"),
 ]

@@ -1,3 +1,4 @@
+from django.shortcuts import HttpResponse
 from django.shortcuts import get_object_or_404
 from rest_framework.generics import ListAPIView, CreateAPIView, RetrieveAPIView
 from .models import Book, Shop, User
@@ -229,22 +230,24 @@ def ImportFromEthnikiVivliothiki(request):
     info = IsbnNlg.delay(isbn)
     print('after receiving')
     collected = info.collect()
-    for x in collected:
-        print(x)
+    #for x in collected:
+    #    print(x)
     #[v for v in info.collect() if not isinstance(v, (ResultBase, tuple))]
     
-    book = Book.objects.create(title=collected['title'])
+    #book = Book.objects.create(title=collected['title'])
 
-    serializer = BookSerializer(book,many=True)
-    return Response(serializer.data)
+    #serializer = BookSerializer(book,many=True)
+    return HttpResponse("<h1>Hello</h1>")
 
 @api_view(['GET'])
-def ImportFromPoliteia(request):
-    # TODO Connect To politeianet.gr
-    # TODO Enter isbn to correct field 
-    # TODO Click first entry
-    # TODO Retrieve information
-    pass
+def IsbnPoliteia(request):
+    isbn = '9786185642112'
+    print('before sending')
+    info = IsbnPoliteia.delay(isbn)
+    print('after receiving')
+    collected = info.collect()
+    
+    return HttpResponse("<h1>Hello</h1>")
 
 @api_view(['GET'])
 def ImportExcelFileEthnikiViVliothiki(request):
