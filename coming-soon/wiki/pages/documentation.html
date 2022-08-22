@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Αποστολή | Bookville.gr</title>
+    <link rel="icon" type="image/x-icon" href="../assets/img/logo3.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/sidebars.css">
+</head>
+<body>
+    <!--Navbar-->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Bookville</a>
+      <div class="vr"></div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" aria-current="page" href="../index.html">Αρχική</a>
+          <a class="nav-link" href="./mission.html">Αποστολή</a>
+          <a class="nav-link active" href="./documentation.html">Documentation</a>
+          <a class="nav-link" href="./contribute.html">Contribute</a>
+          <a class="nav-link" href="#">Contact</a>
+        </div>
+      </div>  
+    </div>
+  </nav>
+
+  <!--Breadcrump-->
+  <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb container mt-4">
+      <span class="mx-1">Βρίσκεστε εδώ:</span>
+      <li class="breadcrumb-item"><a href="../index.html">Αρχική</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Documentation</li>
+    </ol>
+  </nav>
+
+  <!--Content-->
+  <div class="container" id="top">
+  <div class="row">
+    <div class="d-flex flex-container   justify-content-between">
+      <div class="fixed-bottom me-auto"><a class='btn btn-small btn-outline-success' href="#top">κορυφή της σελίδας</a></div>
+    </div>
+        <div class="col-4">
+            <div class="flex-shrink-0 p-3 bg-white" id="sidebar">
+                <h1>Κατηγορίες</h1>
+                <ul class="list-unstyled ps-0">
+                    <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#getting-started-collapse" aria-expanded="true">
+                          Ξεκινήστε από εδώ
+                        </button>
+                        <div class="collapse show" id="getting-started-collapse">
+                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li><a href="#what-is" class="link-dark d-inline-flex text-decoration-none rounded">Τι είναι το Bookville.gr</a></li>
+                            <li><a href="#what-is-not" class="link-dark d-inline-flex text-decoration-none rounded">Τι δεν είναι το Bookville.gr</a></li>
+                            <li><a href="#for-the-owner" class="link-dark d-inline-flex text-decoration-none rounded">Για τον Καταστηματάρχη</a></li>
+                            <li><a href="#for-the-consumer" class="link-dark d-inline-flex text-decoration-none rounded">Για τον Καταναλωτή</a></li>
+                            <li><a href="#getting-help" class="link-dark d-inline-flex text-decoration-none rounded">Βρείτε Βοήθεια</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                  <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                      Τεχνικά
+                    </button>
+                    <div class="collapse" id="home-collapse">
+                      <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a href="#protocols" class="link-dark d-inline-flex text-decoration-none rounded">Protocols</a></li>
+                        <li><a href="#uiux" class="link-dark d-inline-flex text-decoration-none rounded">UI/UX</a></li>
+                        <li><a href="#front" class="link-dark d-inline-flex text-decoration-none rounded">Frontend Development</a></li>
+                        <li><a href="#back" class="link-dark d-inline-flex text-decoration-none rounded">Backend Development</a></li>
+                        <li><a href="#full" class="link-dark d-inline-flex text-decoration-none rounded">Full Stack Development</a></li>
+                        <li><a href="#db" class="link-dark d-inline-flex text-decoration-none rounded">Database</a></li>
+                        <li><a href="#deployment" class="link-dark d-inline-flex text-decoration-none rounded">Deployment</a></li>
+                        <li><a href="#ci" class="link-dark d-inline-flex text-decoration-none rounded">CI/ CD/ Automation/ Testing</a></li>
+                        <li><a href="#performance" class="link-dark d-inline-flex text-decoration-none rounded">App Performance Monitoring</a></li>
+                        <li><a href="#analytics" class="link-dark d-inline-flex text-decoration-none rounded">App Analytics</a></li>
+                        <li><a href="#monitoring" class="link-dark d-inline-flex text-decoration-none rounded">Server Monitoring</a></li>
+                        <li><a href="#backup" class="link-dark d-inline-flex text-decoration-none rounded">Server Backup/ Restore</a></li>
+                        <li><a href="#security" class="link-dark d-inline-flex text-decoration-none rounded">App Security</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                      Διοικητικά
+                    </button>
+                    <div class="collapse" id="dashboard-collapse">
+                      <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a href="#model" class="link-dark d-inline-flex text-decoration-none rounded">Business Model</a></li>
+                        <li><a href="#monetization" class="link-dark d-inline-flex text-decoration-none rounded">Monetization</a></li>
+                        <li><a href="#marketing" class="link-dark d-inline-flex text-decoration-none rounded">Marketing</a></li>
+                        <li><a href="#expansion" class="link-dark d-inline-flex text-decoration-none rounded">Expansion Strategy</a></li>
+                        <li><a href="#law" class="link-dark d-inline-flex text-decoration-none rounded">Νομικά Θέματα</a></li>
+                        <li><a href="#finance" class="link-dark d-inline-flex text-decoration-none rounded">Λογιστικά /Οικονομικά Θέματα</a></li>
+                        <li><a href="#leads" class="link-dark d-inline-flex text-decoration-none rounded">Lead Management</a></li>
+                        <li><a href="#community" class="link-dark d-inline-flex text-decoration-none rounded">Κανονισμοί κοινότητας</a></li>
+                        <li><a href="#problems" class="link-dark d-inline-flex text-decoration-none rounded">Προβλήματα προς επίλυση</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+        </div>
+        <div class="col-8" >
+            <div class="flex-shrink-0 p-3 bg-white">
+                <h1>Περιγραφή</h1>
+                <div class="wiki">
+                    <h1>Ξεκινήστε από εδώ</h1>
+                    <h3 id="what-is">Τι είναι το Bookville.gr</h3>
+                    <p>Το Bookville.gr ήρθε για να ταράξει τα νερά στη βιβλιοφιλική κοινότητα.</p>
+
+                    <p>Το όνομα Bookville παραπέμπει στο γνωστό SmallVille, χωριό των ΗΠΑ που προσγειώθηκε ο Superman μετά την φυγή του από τον πλανήτη του.</p>
+                        
+                    <p>Το βιβλιοχώρι αλλιώς, έχει θέσει ως σκοπό την ανάδειξη της κοινότητας.</p>
+                        
+                    <p>Αποτελεί μια all in one λύση διαχείρισης επιχείρησης και προώθησης βιβλιοπωλείων.</p>
+                        
+                    <p>Όχι μόνο αυτό όμως.</p>
+                        
+                    <p>Για τον πελάτη, θα είναι μια πλατφόρμα αναζήτησης βιβλίων στην ευρύτερη περιοχή του.</p>
+                        
+                    <p>Ο επιχειρηματικός μας στόχος μας είναι διπλός.</p>
+                        <ul>
+                          <li>Να παρέχουμε σύγχρονα εργαλεία μηχανογράφησης και όχι μόνο, όσο αφορά τις επιχειρήσεις, μέσω γρήγορης και αξιόπιστης τεχνολογίας cloud.</li>  
+                          <li>Να παρέχουμε ευκολία στην αναζήτηση βιβλίων στην τοπική αγορά, για τον καταναλωτή.</li>
+                        </ul>
+                    
+                    <p>Αναλυτικά οι υπηρεσίες που παρέχονται θα βρίσκονται στις εκάστοτε σελίδες</p>
+
+                    <h3 id="what-is-not">Τι δεν είναι το Bookville.gr</h3>
+                    <p>Το Bookville.gr δεν είναι σε καμία περίπτωση ένα ακόμα eshop. <strong>Δεν</strong> εμπορευόμαστε βιβλία!</p>
+                    <p>Δεν υπάρχει καν σκέψη για ενσωμάτωση πωλήσεων.</p>
+                    <p>Αν μιλήσετε με κάποιον που αγόρασε κάτι μέσω του site μας, παρακαλώ να επικοινωνίσετε αμέσως μαζί μας στα επίσημα κανάλια επικοινωνίας, όπως αναγράφονται στη σχετική σελίδα.</p>
+
+                    <h3 id="for-the-owner">Για τον καταστηματάρχη</h3>
+                    <br/>
+                    <h3>Τι θα πρέπει να περιμένει ο καταστηματάρχης;</h3>
+                    <br/>
+                    <h3>Έυκολη και γρήγορη διαχείριση αποθέματος</h3>
+                    <p>Το Bookville.gr θα διαθέτει καινοτόμο σύστημα διαχείρισης αποθέματος βιβλίων</p>
+                    <p>Πιο αναλυτικά</p>
+                    <ul class="list-group">
+                        <li class="list-group-item">Δυνατότητα scanαρίσματος ISBN για υποβολή στοιχείων</li>
+                        <li class="list-group-item">Αυτόματη υποβολή στοιχείων βιβλίου μόνο με το σκανάρισμα του ISBN</li>
+                        <li class="list-group-item">Χρήση πολλαπλασιαστή για κατωχύρωση ενός βιβλίου όσες φορές χρειαστεί</li>
+                        <li class="list-group-item">Υποβολή αρχείου .xslx ή .csv με λίστα ISBN για μαζική υποβολή βιβλίων</li>
+                        <li class="list-group-item">Καταχώρηση πώλησης με το scanάρισμα (κινητό) του ήδη κατωχυρωμένου ISBN</li>
+                        <li class="list-group-item">Real time διαχείριση αποθέματος βιβλίων</li>
+                        <li class="list-group-item">Δυνατότητα δημοσιοποίησης ολόκληρου του καταλόγου</li>
+                    </ul>
+                    
+                    <h3>Προβολή σε διαδραστικό χάρτη</h3>
+                    <p>Για ποιο λόγο να θέλετε να μοιράζεστε το απόθεμα των βιβλίων σας;</p>
+                    <p>Για να ενημερώνετε δυνητικούς πελάτες φυσικά.</p>
+                    <p>Βασική λειτουργία του Bookville.gr θα αποτελεί η ενσωμάτωση του καταστήματος σε διαδραστικό χάρτη, ώστε ο καταναλωτής να ξέρει real time το απόθεμα του κάθε καταστήματος.</p>
+                    <p>Έτσι ευελπιστούμε να μεγαλώσουμε την αναγνωρισιμότητα του καταστήματος, αξιοποιόντας τεχνολογίες αιχμής.</p>
+                    
+                    <h3>ERP</h3>
+                    <p>Το Bookville.gr υπόσχετε να φέρει σύγχρονες ERP υπηρεσίες στον κλάδο του βιβλίου, σε πολύ προσιτές τιμές.</p>
+                    <p><strong><em>Τι είναι το ERP;</em></strong></p>
+                    <p>ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφησης. Τρεις όροι για το ίδιο πράγμα.</p>
+                    <p>Συνοπτικά, είναι ένα σύστημα λογισμικού, το οποίο είναι επιφορτισμένο με το να διαχειρίζεται όλες τις λειτουργίες της επιχείρησης. Αυτό επιτυγχάνεται με την ορθολογικότερη οργάνωση και αξιοποίηση δεδομένων και πόρων της επιχείρησης.</p>
+                    <p>Βασικά χαρακτηριστικά μιας σουίτας ERP λογισμικού είναι τα εξής (σύμφωνα με τη wikipedia).</p>
+                    <ul class="list-group">
+                        <li class="list-group-item">Ένα ολοκληρωμένο σύστημα που λειτουργεί σε πραγματικό χρόνο (ή κοντά σε πραγματικό χρόνο), δίχως να βασίζεται σε περιοδικές ενημερώσεις.</li>
+                        <li class="list-group-item">Μια κοινή βάση δεδομένων που υποστηρίζει όλες τις εφαρμογές.</li>
+                        <li class="list-group-item">Μια συνεπής εμφάνιση και αίσθηση σε κάθε ενότητα.</li>
+                        <li class="list-group-item">Εύκολη, χωρίς απαραίτητη τεχνική υποστήριξη, εγκατάσταση του συστήματος</li>
+                    </ul>
+                    <p>Στο Bookville.gr εμπνεόμαστε την ανοιχτές πλατφόρμες όπως το Odoo, ένα open source λογισμικό που επιτρέπει μεταξύ άλλων την ενημέρωση αποθέματος, τον οικονομικό έλεγχο και τη διαχείριση πελατολογίου.</p>
+                    <p>Αναλυτικότερα οι δυνατότητες του Odoo <a href="https://www.odoo.com/page/editions">εδώ</a>.</p>
+                    <p>Σε βάθος χρόνου λοιπόν, θα είμαστε σε θέση να προσφέρουμε τις ακόλουθες υπηρεσίες (από το πιο βραχυπρόθεσμο στο πιο μακροπρόθεσμο)</p>
+                    <ul class="list-group">
+                        <li class="list-group-item">Ενσωμάτωση LeanTime για ανάθεση και διαχείριση εργασιών, ημερομηνιών κτλ (πλήρης λίστα λειτουργιών <a href="https://leantime.io/features/">εδώ</a>)</li>
+                        <li class="list-group-item">Λογισμικό CRM (Customer Relationship Management) για διαχείριση πελατολογίου</li>
+                        <li class="list-group-item">Σύστημα Διαχείρισης Προσωπικού</li>
+                        <li class="list-group-item">Προβολή στατιστικών για το κατάστημα με βάση τις πωλήσεις και τις αναζητήσεις των υποψήφιων πελατών</li>
+                        <li class="list-group-item">Λογισμικό Καταγραφής Οικονομικών επιχείρησης</li>
+                    </ul>
+                    <p>Όλα αυτά και πολλά ακόμα θα παρέχονται από το βασικό κιόλας πλάνο στα βιβλιοπωλεία.</p>
+                    <p>Και όσο για την υποδομή, δε χρειάζεται να ανησυχείτε, το αναλαμβάνουμε εμείς.</p>
+                    <p>Όλες οι εφαρμογές θα βρίσκονται και θα τρέχουν στο cloud.</p>
+                    
+                    <br />
+                    
+                    <h3>Events</h3>
+                    <p>Η εφαρμογή θα διαθέτει ειδική κατηγορία Events στην οποία οι εγγεγραμένοι πελάτες θα μπορούν να εκδηλώνουν το ενδιαφέρον τους</p>
+                    
+                    <br />
+                    
+                    <h3>Ενσωματωμένο κανάλι επικοινωνίας B2C</h3>
+                    <p>Η επικοινωνία μεταξύ πελατών και επιχειρήσεων, τώρα πιο εύκολη από ποτέ.</p>
+                    <p>Μιλήστε απευθείας με τους ενδιαφερόμενους πελάτες, κατοχυρώστε τα στοιχεία τους και τα στοιχεία παραγγελίας, αν υπάρχουν, και επεκτύνετε αποτελεσματικά το δίκτυο πελατών σας.</p>
+                    <p>Φυσικά κάθε συνομιλεία θα καταγράφεται και θα υπάρχει διαθέσιμη στην ενότητα “Τα Chat μου”.</p>
+                    <p>Σε βάθος χρόνου, θα υπάρχει ενσωμάτωση ψηφιακού βοηθού ώστε η συλλογή στοιχείων να γίνει ακόμα πιο εύκολη για τον καθένα.</p>
+                    
+                    <br />
+                    <h3>Πρόσβαση σε δημόσιο server πελατών</h3>
+                    <p>Οι πελάτες που χρησιμοποιούν το Bookville.gr θα έχουν πρόσβαση σε ένα οργανωμένο server όπου θα μοιράζονται με τους υπόλοιπους την εμπειρία τους με το site και τα συνεργαζόμενα βιβλιοπωλεία.</p>
+                    <p>Εκεί ο καταστηματάρχης θα εντοπίζει αξιολογήσεις από πελάτες και θα βλέπει την αφιλτράριστη εικόνα της κοινότητας για αυτόν. </p>
+
+                    <br />
+                    <h3>Πρόσβαση σε ιδιωτικό server επικοινωνίας</h3>
+                    <p>Ο server θα φιλοξενείται στην πλατφόρμα Discord.</p>
+                    <p>Στόχος της συγκεκριμένης κίνησης είναι να προσφέρουμε σύγχρονο customer support σε όλους τους συνεργαζόμενους καταστηματάρχες. Αντιμετωπίζετε κάποιο πρόβλημα με τη εφαρμογή μας; Απευθυνθείτε αμέσως σε εμάς για να το επιλύσουμε.</p>
+
+                    <br />
+                    <h3>Και πολλά ακόμα έρχονται…</h3>
+                    <p>Έχετε κάποια πρόταση; Μετά χαράς να την ακούσουμε στα επίσημα κανάλια επικοινωνίας μας!</p>
+
+                    <h1 id="for-the-consumer">Για τον Καταναλωτή</h1>
+                    <h3>Τι θα μου προσφέρει;</h3>
+                    <p>Αρχικά μιλάμε για μια open source εφαρμογή. Τι είναι open source; Απευθυνθείτε στην ενότητα Business Model.</p>
+                    <p>Συνεπώς πέρα από τις υπηρεσίες που θα προσφέρουμε εμείς σε εσάς, μπορείτε να συνεισφέρετε και εσείς με τον τρόπο σας.</p>
+                    <p>Πάμε να δούμε όμως τι λειτουργίες θα υπάρχουν από την πρώτη κιόλας στιγμή για όλους τους πελάτες, εγγεγραμμένους και μη.</p>
+                    
+                    <br />
+                    <h3>Αναζήτηση βιβλίου στην περιοχή μου</h3>
+                    <p>Βασική λειτουργία της εφαρμογής είναι να προσφέρει γρήγορη αναζήτηση ένός βιβλίου στην ευρύτερη περιοχή σας. Μπορείτε να θέσετε αν θέλετε χιλιομετρική ακτίνα από την περιοχή σας ή να χρησιμοποιήσετε την τοποθεσία σας για real time ενημέρωση του χάρτη. Ή και τα δύο συνδιαστικά.</p>
+                    
+                    <br />
+                    <h3>Αναζήτηση καταλόγου συγκεκριμένου βιβλιοπωλείου</h3>
+                    <p>Αν είστε πελάτης ενός συγκεριμένου καταστήματος, μπορείτε να ψάξετε τον κατάλογο του. Ο κατάλογος αυτός θα ενημερώνεται απευθείας από το σύστημα αποθήκης του καταστήματος.</p>
+
+                    <br />
+
+                    <p>Με μια δωρεάν εγγραφή θα μπορείτε να αξιοποιήσετε τις εξής λειτουργίες</p>
+
+                    <br />
+
+                    <h3>Δημιουργία Wishlist</h3>
+                    <p>Θέλετε να έρθει ένα βιβλίο στην περιοχή σας; Μπορείτε να το καταχωρήσετε στο προσωπικό σας wishlist και έτσι οι καταστηματάρχες μπορεί να κάνουν την επιθυμία σας πραγματικότητα.</p>
+
+                    <br />
+                    <h3>Blog</h3>
+                    <p>Θέλετε να μοιραστείτε τις απόψεις σας για τον κόσμο του βιβλίου; Τώρα μπορείτε να τις αναρτήσετε δημόσια και να εισπράξετε feedback από αυτές. Το Bookville.gr προωθεί τον υγειή διάλογο. Θα υπάρχει αυστηρό moderation ώστε να το επιτύχουμε αυτό.</p>
+
+                    <br />
+                    <h3>Πρόσκληση στον Discord Server</h3>
+                    <p>Με την εγγραφή σας στο site θα πάρετε ένα link για τη συμμετοχή σας στον επίσημο Discord Server της κοινότητας του Bookville. Εκεί θα μπορείτε να εκφράζεστε ελεύθερα για την εμπειρία σας με το site, αλλά και με τα βιβλιοπωλεία που επισκευθήκατε.</p>
+                    <p>Εκεί επίσης θα διοργανώνονται διάφορα events κοινότητας και διαγωνισμοί με τη συμβολή των καταστημάτων. </p>
+                    <p> Το Bookville.gr προωθεί τον υγειή διάλογο. Θα υπάρχει αυστηρό moderation ώστε να το επιτύχουμε αυτό.</p>
+
+                    <br />
+                    <p>Τέλος θα υπάρχει και η επιλογή του pro χρήστη.</p>
+                    <p>Με μόλις 3€ το μήνα θα πάρετε τα εξής.</p>
+
+                    <br />
+                    <h3>Προβολή πανελλήνιου χάρτη βιβλιοπωλείων</h3>
+                    <p>Αναρωτηθήκατε ποτέ τι βιβλία πουλάνε στο Σουφλί; Ή στη Μονεμβασιά;
+
+                        Τώρα μπορείτε να μάθαιτε.</p>
+                    
+                    <br />
+                    <h3>Ειδικό badge στην κοινότητα του Discord</h3>
+                    <p>Ένα απλό status για να ξέρουμε ποιοι στηρίζουν έμπρακτα το εγχείρημα μας.</p>
+
+                    <br />
+                    <p>Όπως καταλαβαίνετε, ο pro χρήστης δεν έχει αισθητά περισσότερα πλεονεκτήματα από τον απλό χρήστη. Έχει όμως το χαρατήρα της οικονομικής ενίσχυσης της προσπάθειας μας. Αν κάποιος/α το επιλέξει αυτό λοιπόν θα εκτιμηθεί πολύ.</p>
+
+                    <br />
+                    <h1 id="getting-help">Κέντρο βοήθειας</h1>
+                    <p>Εδώ θα βρίσκεται ένα FAQ όπου θα απαντάμε τα συνηθέστερα προβλήματα που μπορεί να αντιμετωπίσετε κατά τη χρήση της εφαρμογής.</p>
+
+                    <br />
+                    <h1>Τεχνικά</h1>
+                    <br />
+                    <h3 id="protocols">Protocols</h3>
+                    <br />
+                    <h3 id="uiux">UI/UX</h3>
+                    <br />
+                    <h3 id="front">Frontend Development</h3>
+                    <br />
+                    <h3 id="back">Backend Development</h3>
+                    <br />
+                    <h3 id="full">Full Stack Development</h3>
+                    <br />
+                    <h3 id="db">Database Optimization</h3>
+                    <br />
+                    <h3 id="deployment">Deployment</h3>
+                    <br />
+                    <h3 id="ci">CI /CD/ Automation /Testing</h3>
+                    <br />
+                    <h3 id="performance">Performance Monitoring</h3>
+                    <br />
+                    <h3 id="analytics">App Analytics</h3>
+                    <br />
+                    <h3 id="monitoring">Server Monitoring</h3>
+                    <br />
+                    <h3 id="backup">Server Backup /Restore</h3>
+                    <br />
+                    <h3 id="security">App Security</h3>
+
+
+                    <br />
+                    <h1>Διοικητικά</h1>
+                    <br />
+                    <h1 id="model">Business Model (Open Source Software)</h1>
+                    <p>Σύμφωνα με το ellak.gr, το ΕΛ/ΛΑΚ (Ελεύθερο Λογισμικό / Λογισμικό Ανοιχτού Κώδικα) είναι το εξής:</p>
+                    <blockquote class="blockquote">
+                        Ως σύνολο περιγράφει λογισμικό το οποίο διατίθεται με ειδικές άδειες, οι
+ οποίες επιτρέπουν στους χρήστες να μελετήσουν, να τροποποιήσουν και να 
+βελτιώσουν το λογισμικό. Ο τεχνικός τρόπος με τον οποίο επιτυγχάνεται 
+αυτό είναι η διαθεσιμότητα του πηγαίου κώδικα από αποθετήρια( source code repositories). Οι αντίστοιχοι αγγλικοί όροι είναι Free Software και Open Source 
+Software ενώ η ομαδοποίηση αναφέρεται συνήθως ως FOSS (Free and Open 
+Source Software) ή FLOSS (Free/Libre/Open Source software).
+                    </blockquote>
+                    <p>Το ΕΛ/ΛΑΚ ή αλλιώς open source software επιτρέπει στον επαγγελματία, τον πελάτη, στον developer αλλά  και στον καθημερινό άνθρωπο την επίβλεψη ενός έργου. </p>
+                    <p>Για ένα πλήρη οδηγό για τον open source τρόπο σκέψης πατήστε το <a href="https://opensource.ellak.gr/2022/08/18/ti-ine-to-elefthero-logismiko/">link</a>.</p>
+                    <p>Κλειστό ή proprietary λογισμικό είναι αυτό που χρησιμοποιείτε από τον χρήστη ως μάυρο κουτί, ως κάτι δηλαδή που απλώς δουλεύει, καλύπτεται από αυστηρούς όρους εγγύησης και αν χαλάσει απαιτείται τις περισσότερες φορές εξουσιοδοτιμένο service.</p>
+                    <p>Εδώ στο Bookville.gr δεν το κάνουμε αυτό.</p>
+                    <p>Οι λόγοι είναι οι εξής</p>
+                    <ul class="list-group">
+                        <li class="list-group-item">Σεβόμαστε το χρήστη και θέλουμε να κερδίσουμε την εμπιστοσύνη του μέσα από πλήρη διαφάνεια της διαδικασίας του development. Όλες οι αλλαγές είναι διαθέσιμες για όλους να τις δουν. Επενδύουμε σε αρχές της κοινότητας, όπως η συνεργατικότητα και η αυτονομία.</li>
+                        <li class="list-group-item">Η εφαρμογή είναι χτισμένη με από την πρώτη γραμμή κώδικα με τεχνολογίες open source. Όποια γνώση χρειαστήκαμε, την αποκτήσαμε μέσω internet και ανοιχτών πηγών, ενώ χρησιμοποιήσαμε και αυτούσιο ανοιχτό κώδικα. Θεωρούμε χρέος μας να συνεχίσουμε αυτό που παραλλάβαμε. </li>
+                        <li class="list-group-item">Δεν έχουμε σκοπό να αξιοποιήσουμε τα δεδομένα σας πουλώντας τα σε τρίτες εταιρίες. Αυτή η τακτική αξιοποιείτε κατά κόρον στα λογισμικά ανοιχτού κώδικα. Για περισσότερες πληροφορίες σχετικά με την προστασία των δεδομένων σας απευθυνθείτε στο παρακάτω <a href="https://foundation.mozilla.org/en/blog/what-you-should-know-this-data-privacy-day">link</a></li>
+                        <li class="list-group-item">Επιθυμούμε και επιδιώκουμε την ενσωμάτωση στην κοινότητα. Μέσα από το Instagram, αλλά και μέσα από το ίδιο το site, μέσω του blog και της σελίδας των events. Τι ποιο ταιριαστό από το να έχει λόγο η ίδια κοινότητα για αλλαγές στο project;</li>
+                        <li class="list-group-item">Δεν θέλουμε να εξαρτώμαστε από πουθενά. Το project είναι ένας ζωντανός οργανισμός που θα ζει και θα αναπτύσεται μέσα από την κοινότητα. Επομένως το θεωρώ πολύ ταιριαστό η χρηματοδότηση μας να είναι απευθείας από αυτή. Να θυμάστε, όταν δεν πληρώνετε για ένα προιόν, τότε κάποιος άλλος πληρώνει για αυτό και ενδεχομένως να έχει αντίθετα συμφέροντα με εσάς. Για να δείτε την ανάλυση της χρηματοδότησης δείτε παρακάτω.</li>
+                    </ul>
+                    <p>Αυτοί είναι μερικοί από τους λόγους που κάναμε αυτή την επιλογή. Αν συμφωνείτε με εμάς και θέλετε να συνισφέρετε με τον τρόπο σας, όποιος και αν είναι αυτός, επισκευτείτε τη σελίδα contribute.</p>
+
+                    <br />
+                    <h3>Δομή</h3>
+
+                    <br />
+                    <h1 id="monetization">Monetization</h1>
+                    <p><strong>**Σημαντικό**</strong></p>
+                    <p>Τα πλάνα που αναφέρονται αφορούν την κυκλοφορία της εφαρμογής.
+
+                        Προς το παρόν, όλες οι λειτουργίες που αναπτύσονται θα είναι διαθέσιμες δωρεάν. Οι τιμές που αναγράφονται ενδέχεται να αλλάξουν χωρίς προυδοποίηση.</p>
+                    <p>Μιλήσαμε νωρίτερα για τα ΕΛ/ΛΑΚ. Η κύρια διαφοροποίηση του Free Open Source Software από το Open Source Software είναι η πηγές χρηματοδότησης.</p>
+                    <p>Το open source <strong>δεν</strong> είναι απαραίτητα δωρεάν.</p>
+                    <p>Όσο και αν θέλουμε να προσφέρουμε ένα τέτοιο εργαλείο δωρεάν, η σκληρή πραγματικότητα μας λέει πως κάτι τέτοιο δεν γίνεται. Παρόλα αυτά θα κάνουμε το καλύτερο δυνατό ώστε οι δωρεάν χρήστες να μείνουν ικανοποιημένοι από τις υπηρεσίες μας.</p>
+                    <p>Ακολουθεί αναλυτικός πίνακας με τις επιλογές χρηματοδότησης, τόσο για τους πελάτες, όσο και για τις επιχειρήσεις.</p>
+                    <p><em>Σημείωση 1: </em></p>
+                    <p>Η εγγραφή επιχειρηματία στο σύστημα συμπεριλαμβάνει κόστος εγγραφής 20€ . Αυτό γίνεται για να μπορούμε να πιστοποιήσουμε πως πρόκειται για πραγματικό πωλητή.</p>
+                    <p><em>Σημείωση 2:</em></p>
+                    <p>Για αναλυτική περιγραφή των παροχών απευθυνθείτε στις αντίστοιχες ενότητες.</p>
+                    <p><em>Σημείωση 3:</em></p>
+                    <p>Υπάρχει και η δυνατότητα εφάπαξ δωρεάς. Επισκευθείτε τη σελίδα Contribute.</p>
+                    <h3>Για τον επιχειρηματία</h3>
+                    <table>
+                        <thead>
+                            <th>Πλάνο</th>
+                            <th>Κόστος/μήνα</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Δωρεάν</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Βασικό</td>
+                                <td>10€</td>
+                            </tr>
+                            <tr>
+                                <td>Premium</td>
+                                <td>20€</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><strong><em>Δωρεάν Πλάνο: </em></strong>Φτιαγμένο για αυτούς που θέλουν να δοκιμάσουν την εφαρμογή.</p>
+                    <p>Υποστηρίζει τις εξής λειτουργίες</p>
+                    <ul class="list-group">
+                        <li class="list-group-item">Import μεμονομένου βιβλίου μέσω υπηρεσίας ISBN.</li>
+                        <li class="list-group-item">Διαδικτιακή πύλη ελέγχου αποθέματος.</li>
+                        <li class="list-group-item">Εμφάνιση στο χάρτη σε ακτίνα 1 χιλιομέτρου από το κατάστημα.</li>
+                    </ul>
+                    <p><strong><em>Βασικό Πλάνο: </em></strong>Φτιαγμένο για αυτούς που θέλουν να εκσυγχρωνίσουν την επιχείρησή τους. Επεκτείνει το Δωρεάν πλάνο</p>
+                    <ul class="list-group">
+                        <li class="list-group-item">Import μεμονομένου βιβλίου μέσω υπηρεσίας ISBN.</li>
+                        <li class="list-group-item">Import αρχείου με τα ISBN των βιβλίων του καταστήματος.</li>
+                        <li class="list-group-item">Προσθήκη custom εικόνας στο κάθε βιβλίο</li>
+                        <li class="list-group-item">Διαδικτιακή πύλη ελέγχου αποθέματος.</li>
+                        <li class="list-group-item">Δυνατότητα δημοσίευσης κατάλογου βιβλιοπωλείου προς αναζήτηση.</li>
+                        <li class="list-group-item">Εμφάνιση στο χάρτη σε ακτίνα 20 χιλιομέτρων από το κατάστημα.</li>
+                    </ul>
+
+                    <br />
+                    <h3 id="marketing">Marketing</h3>
+
+                    <br />
+                    <h3 id="expansion">Expansion Strategy</h3>
+
+                    <br />
+                    <h3 id="law">Νομικά Θέματα</h3>
+
+                    <br />
+                    <h3 id="finance">Λογιστικά /Οικονομικά Θέματα</h3>
+
+                    <br />
+                    <h3 id="leads">Lead Management</h3>
+
+                    <br />
+                    <h3 id="community">Κανονισμοί Κοινότητας</h3>
+
+                    <br />
+                    <h3 id="problems">Προβλήματα προς Επίλυση</h3>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="../assets/js/documentation.js"></script>
+    <script src="../assets/js/sidebars.js"></script>
+</body>
+</html>
