@@ -1,0 +1,30 @@
+<!--Navbar-->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">Bookville</a>
+      <div class="vr"></div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" aria-current="page" href="/">Αρχική</a>
+          {%- for mission in collections.mission -%}
+          <a class="nav-link" href="{{mission.url}}">Αποστολή</a>
+          {%- endfor -%}
+          {%- for documentation in collections.documentation -%}
+          <a class="nav-link" href="{{documentation.url}}">Documentation</a>
+          {%- endfor -%}
+          {%- for contribute in collections.contribute -%}
+          <a class="nav-link" href="{{contribute.url}}">Contribute</a>
+          {%- endfor -%}
+          {%- for contact in collections.contact -%}
+          <a class="nav-link" href="{{contact.url}}">Contact</a>
+          {%- endfor -%}
+          {%- for devlog in collections.devlog -%}
+          <a class="nav-link" href="{{devlog.url}}">Devlog</a>
+          {%- endfor -%}
+        </div>
+      </div>  
+    </div>
+  </nav>

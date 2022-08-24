@@ -1,0 +1,420 @@
+---
+title: Documentation
+layout: 'base.njk'
+---
+
+  <!--Breadcrump-->
+  <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb container mt-4">
+      <span class="mx-1">Βρίσκεστε εδώ:</span>
+      <li class="breadcrumb-item"><a href="/">Αρχική</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Contribute</li>
+    </ol>
+  </nav>
+
+  <!--Content-->
+  <div class="container">
+    <h1 class="text-center">{{header}}</h1>
+    <blockquote class="blockquote">
+        {{blockquote}}
+    </blockquote>
+    <p>Πατήστε ένα από τα κουμπιά για να δείτε τους τομείς που μπορείτε να συνεισφέρετε.</p>
+    <p>Όπως βλέπετε και μόνοι σας, οι τομείς ενασχόλησης είναι πολλοί και διαφορετικοί μεταξύ τους.</p>
+    <a href="#" id="toggle-technical" class="btn btn-outline-success">Τεχνικός Τομέας</a>
+    <a href="#" id="toggle-business" class="btn btn-outline-danger">Business Τομέας</a>
+    <a href="#" id="toggle-funding" class="btn btn-outline-secondary">Οικονομική συνεισφορά</a>
+    <p class="text-muted my-2">*Κάποιες υποκατηγορίες στο τεχνικό κομμάτι είναι αλληλοκαλυπτόμενες μέχρι να αποφασιστεί ποια θα χρησιμοποιηθεί εν τέλει.</p>
+    <form method="post">
+        <input class="form-control my-4 d-none" id="technical-search" onkeyup='FilterTechnicalTable()' placeholder="Αναζήτηση Τομέα...">
+    </form>
+    <div class="table-responsive">
+        <table class="table table-hover d-none" id="technical-table">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Τομέας</th>
+                    <th scope="col">Υποκατηγορία</th>
+                    <th scope="col">Άτομα που απασχολούνται ενεργά</th>
+                  </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Internet Protocols</td>
+                    <td>HTTP</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Internet Protocols</td>
+                    <td>Websockets</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>UI/UX</td>
+                    <td>Graphics Design</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>UI/UX</td>
+                    <td>Page Design</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Frontend Development</td>
+                    <td>ReactJS</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td>Frontend Development</td>
+                    <td>Material UI/ Flutter/ Ionic</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">7</th>
+                    <td>Frontend Development</td>
+                    <td>Maps</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">8</th>
+                    <td>Frontend Development</td>
+                    <td>Scanning</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">9</th>
+                    <td>Frontend Development</td>
+                    <td>Analytics Graphs</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">10</th>
+                    <td>Frontend Development</td>
+                    <td>Acessibility</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">11</th>
+                    <td>Frontend Development</td>
+                    <td>Browser Testing</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">12</th>
+                    <td>Backend Development</td>
+                    <td>Django Framework</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">13</th>
+                    <td>Backend Development</td>
+                    <td>Django REST Framework</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">14</th>
+                    <td>Backend Development</td>
+                    <td>Django Channels</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">15</th>
+                    <td>Backend Development</td>
+                    <td>Django ORM</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">16</th>
+                    <td>Backend Development</td>
+                    <td>Django other packages</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">17</th>
+                    <td>Backend Development</td>
+                    <td>Async Programming (Celery)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">18</th>
+                    <td>Backend Development</td>
+                    <td>Redis</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">19</th>
+                    <td>Backend Development</td>
+                    <td>Parallel Python Programming<br/>(concurent.futures module)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">20</th>
+                    <td>Full Stack Development</td>
+                    <td>Tie Frontend and Backend together</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">21</th>
+                    <td>Database</td>
+                    <td>PostgreSQL Optimization</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">22</th>
+                    <td>Deployment</td>
+                    <td>CapRover PaaS</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">23</th>
+                    <td>Deployment</td>
+                    <td>Docker</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">24</th>
+                    <td>Deployment</td>
+                    <td>Kubernetes</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">25</th>
+                    <td>Deployment</td>
+                    <td>Object Storage (S3 compatible)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">26</th>
+                    <td>Deployment</td>
+                    <td>NGINX</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">27</th>
+                    <td>CI /CD/ Automation /Testing</td>
+                    <td>Ansible</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">28</th>
+                    <td>CI /CD/ Automation /Testing</td>
+                    <td>Jenkins</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">29</th>
+                    <td>CI /CD/ Automation /Testing</td>
+                    <td>Circle CI</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">30</th>
+                    <td>CI /CD/ Automation /Testing</td>
+                    <td>Travis CI</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">31</th>
+                    <td>CI /CD/ Automation /Testing</td>
+                    <td>The ELK Stack</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">32</th>
+                    <td>App Performance Monitoring</td>
+                    <td>Sentry (Frontend & Backend)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">33</th>
+                    <td>App analytics</td>
+                    <td>Posthog</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">34</th>
+                    <td>Server Monitoring</td>
+                    <td>Zabbix</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">35</th>
+                    <td>Server Monitoring</td>
+                    <td>Nagios Core</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">36</th>
+                    <td>Server Backup /Restore</td>
+                    <td>Restic</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">37</th>
+                    <td>Server Backup /Restore</td>
+                    <td>SyncThing</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">38</th>
+                    <td>App Security</td>
+                    <td>REST API security</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">39</th>
+                    <td>App Security</td>
+                    <td>Frontend Security</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">40</th>
+                    <td>Server Backup /Restore</td>
+                    <td>2FA</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <form method="post">
+        <input class="form-control my-4 d-none" id="business-search" onkeyup='FilterBusinessTable()' placeholder="Αναζήτηση Τομέα...">
+    </form>
+    <div class="table-responsive">
+        <table class="table table-hover d-none" id="business-table">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Τομέας</th>
+                    <th scope="col">Υποκατηγορία</th>
+                    <th scope="col">Άτομα που απασχολούνται ενεργά</th>
+                  </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Ομάδα Διαχείρισης Περιεχομένου</td>
+                    <td>Διαχείριση Περιεχομένου Wiki</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Ομάδα Διαχείρισης Περιεχομένου</td>
+                    <td>Επιμέλεια Κειμένων Wiki και Website</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Ομάδα Moderation</td>
+                    <td>Blog Moderation</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Ομάδα Moderation</td>
+                    <td>Discord Servers Moderation</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Ομάδα Moderation</td>
+                    <td>Social Media Moderation</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td>Ομάδα Social Media</td>
+                    <td>Προτάσεις για Προώθηση Εφαρμογής στην κοινότητα</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">7</th>
+                    <td>Ομάδα Διαχείρισης Πελατών και Χρηστών</td>
+                    <td>Διαχείριση αιτημάτων προς τους developers</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">8</th>
+                    <td>Ομάδα Διαχείρισης Πελατών και Χρηστών</td>
+                    <td>Χρήση CRM Λογισμικού</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">9</th>
+                    <td>Ομάδα Διαχείρισης Πελατών και Χρηστών</td>
+                    <td>Διαχείριση Issues / Pull Requests στο Github</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">10</th>
+                    <td>Ομάδα Διαχείρισης Οικονομικών</td>
+                    <td>Διαχείριση Κατάστασης Συνδρομών</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">11</th>
+                    <td>Ομάδα Διαχείρισης Οικονομικών</td>
+                    <td>Αναπτυξιακό πλάνο</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">12</th>
+                    <td>Ομάδα Διαχείρισης Οικονομικών</td>
+                    <td>Πλάνα χρηματοδότησης</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">13</th>
+                    <td>Business Consultant</td>
+                    <td>Αυτά που κάνετε τέλος πάντων :)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">14</th>
+                    <td>Business Consultant</td>
+                    <td>Αυτά που κάνετε τέλος πάντων :)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">15</th>
+                    <td>Ομάδα Διαχείρισης Εθελοντών /Προσωπικού</td>
+                    <td>Καταγραφή ωρών ενασχόλησης</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">16</th>
+                    <td>Ομάδα Νομικής Υποστήριξης</td>
+                    <td>Επίβλεψη δράσεων</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">17</th>
+                    <td>Ομάδα Νομικής Υποστήριξης</td>
+                    <td>Διαχείριση Licenses</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="card d-none" id="funding-card">
+        <h5 class="card-header">Δωρεές</h5>
+        <div class="card-body">
+          <p class="card-text">Αν φτάσατε ως εδώ μάλλον ενδιαφέρεστε πραγματικά για το εγχείρημα μας.</p>
+          <p class="card-text">Είμαστε μεγάλοι fan projects όπως το Sentry. Χτισμένο από την κοινότητα, δηλαδή, αλλά ταυτόχρονα ικανό να συντηρίσει τον εαυτό του.</p>
+          <p>Περισσότερα για το Sentry εδώ.</p>
+          <p>Προσωπικά, είμαι ένας άνθρωπος που εργάζετε. Δε είμαι εδώ για να ζητήσω τα χρήματά σας, θα μπορούσα αν ήθελα να συντηρίσω το project από το υστέρημα μου.</p>
+          <p>Αν κάποια στιγμή όμως το project μπορούσε να συντηρήσει τον εαυτό του, θα είμασταν πραγματικά χαρούμενοι, καθώς θα είχαμε πετύχει το μεγαλύτερο, οικονομικά, στόχο μας. </p>
+          <p>Πιο σημαντικό θα έλεγα ότι είναι να προσφέρετε με τους προαναφερθέντες τρόπους, είτε τεχνικά, είτε στο business /διαχειριστικό κομμάτι.</p>
+          <p>Αν για οποιοδήποτε λόγο όμως δεν μπορείτε, μια δωρεά θα ήταν παραπάνω από καλοδεχούμενη. </p>
+          <a href="#" class="btn btn-outline-primary">Paypal</a>
+        </div>
+      </div>
+  </div>
+
+    <script src="../assets/js/contribute.js"></script>

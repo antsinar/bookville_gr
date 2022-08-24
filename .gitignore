@@ -1,3 +1,6 @@
+node_modules
+package-lock.json
+
 # webdrivers for selenium
 chromedriver.exe
 geckodriver.exe

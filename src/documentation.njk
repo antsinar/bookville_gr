@@ -1,0 +1,94 @@
+---
+title: Documentation
+layout: 'base.njk'
+---
+
+  <!--Breadcrump-->
+  <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb container mt-4">
+      <span class="mx-1">Βρίσκεστε εδώ:</span>
+      <li class="breadcrumb-item"><a href="/">Αρχική</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Documentation</li>
+    </ol>
+  </nav>
+
+  <!--Content-->
+  <div class="container" id="top">
+  <div class="row">
+    <div class="d-flex flex-container justify-content-between">
+      <div class="fixed-bottom me-auto"><a class='btn btn-small btn-outline-success' href="#top">κορυφή της σελίδας</a></div>
+    </div>
+        <div class="col-4">
+            <div class="flex-shrink-0 p-3 bg-white" id="sidebar">
+                <h1>Κατηγορίες</h1>
+                <ul class="list-unstyled ps-0">
+                    <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#getting-started-collapse" aria-expanded="true">
+                          Ξεκινήστε από εδώ
+                        </button>
+                        <div class="collapse show" id="getting-started-collapse">
+                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li><a href="#what-is" class="link-dark d-inline-flex text-decoration-none rounded">Τι είναι το Bookville.gr</a></li>
+                            <li><a href="#what-is-not" class="link-dark d-inline-flex text-decoration-none rounded">Τι δεν είναι το Bookville.gr</a></li>
+                            <li><a href="#for-the-owner" class="link-dark d-inline-flex text-decoration-none rounded">Για τον Καταστηματάρχη</a></li>
+                            <li><a href="#for-the-consumer" class="link-dark d-inline-flex text-decoration-none rounded">Για τον Καταναλωτή</a></li>
+                            <li><a href="#getting-help" class="link-dark d-inline-flex text-decoration-none rounded">Βρείτε Βοήθεια</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                  <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                      Τεχνικά
+                    </button>
+                    <div class="collapse" id="home-collapse">
+                      <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a href="#protocols" class="link-dark d-inline-flex text-decoration-none rounded">Protocols</a></li>
+                        <li><a href="#uiux" class="link-dark d-inline-flex text-decoration-none rounded">UI/UX</a></li>
+                        <li><a href="#front" class="link-dark d-inline-flex text-decoration-none rounded">Frontend Development</a></li>
+                        <li><a href="#back" class="link-dark d-inline-flex text-decoration-none rounded">Backend Development</a></li>
+                        <li><a href="#full" class="link-dark d-inline-flex text-decoration-none rounded">Full Stack Development</a></li>
+                        <li><a href="#db" class="link-dark d-inline-flex text-decoration-none rounded">Database</a></li>
+                        <li><a href="#deployment" class="link-dark d-inline-flex text-decoration-none rounded">Deployment</a></li>
+                        <li><a href="#ci" class="link-dark d-inline-flex text-decoration-none rounded">CI/ CD/ Automation/ Testing</a></li>
+                        <li><a href="#performance" class="link-dark d-inline-flex text-decoration-none rounded">App Performance Monitoring</a></li>
+                        <li><a href="#analytics" class="link-dark d-inline-flex text-decoration-none rounded">App Analytics</a></li>
+                        <li><a href="#monitoring" class="link-dark d-inline-flex text-decoration-none rounded">Server Monitoring</a></li>
+                        <li><a href="#backup" class="link-dark d-inline-flex text-decoration-none rounded">Server Backup/ Restore</a></li>
+                        <li><a href="#security" class="link-dark d-inline-flex text-decoration-none rounded">App Security</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                      Διοικητικά
+                    </button>
+                    <div class="collapse" id="dashboard-collapse">
+                      <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a href="#model" class="link-dark d-inline-flex text-decoration-none rounded">Business Model</a></li>
+                        <li><a href="#monetization" class="link-dark d-inline-flex text-decoration-none rounded">Monetization</a></li>
+                        <li><a href="#marketing" class="link-dark d-inline-flex text-decoration-none rounded">Marketing</a></li>
+                        <li><a href="#expansion" class="link-dark d-inline-flex text-decoration-none rounded">Expansion Strategy</a></li>
+                        <li><a href="#law" class="link-dark d-inline-flex text-decoration-none rounded">Νομικά Θέματα</a></li>
+                        <li><a href="#finance" class="link-dark d-inline-flex text-decoration-none rounded">Λογιστικά /Οικονομικά Θέματα</a></li>
+                        <li><a href="#leads" class="link-dark d-inline-flex text-decoration-none rounded">Lead Management</a></li>
+                        <li><a href="#community" class="link-dark d-inline-flex text-decoration-none rounded">Κανονισμοί κοινότητας</a></li>
+                        <li><a href="#problems" class="link-dark d-inline-flex text-decoration-none rounded">Προβλήματα προς επίλυση</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+        </div>
+        <div class="col-8" >
+            <div class="flex-shrink-0 p-3 bg-white">
+                <h1>{{header}}</h1>
+                <div class="wiki">
+                    {{content | safe}}
+                </div>
+            </div>
+            
+        </div>
+    </div>
+  </div>
+
+    <script src="../assets/js/sidebars.js"></script>

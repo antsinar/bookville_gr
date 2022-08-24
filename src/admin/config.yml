@@ -1,0 +1,16 @@
+backend:
+  name: git-gateway
+  branch: coming-soon
+
+media_folder: "public/assets/img"
+public_folder: "/assets/img"
+
+collections:
+  - name: "page_content"
+    label: "Page Content"
+    folder: "src/page_content"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Header", name: "header", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list"}

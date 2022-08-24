@@ -1,0 +1,23 @@
+---
+title: Αποστολή
+layout: 'base.njk'
+---  
+  
+  <!--Breadcrump-->
+  <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb container mt-4">
+      <span class="mx-1">Βρίσκεστε εδώ:</span>
+      <li class="breadcrumb-item"><a href="/">Αρχική</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Αποστολή</li>
+    </ol>
+  </nav>
+
+  <!--Content-->
+  <div class="container">
+    <h1 class="text-center">{{header}}</h1>
+    
+    {{ content | safe }}
+
+  </div>
+
+    <script src="../assets/js/mission.js"></script>
