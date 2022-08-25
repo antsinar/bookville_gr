@@ -198,16 +198,33 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 ***Ζητούμενα***  
 Θα χρησιμοποιηθούν οι μέθοδοι GET/POST/PUT/DELETE του προτοκόλου HTTP για την υλοποίηση του REST API.   
 Επίσης θα χρησιμοποιηθεί το προτόκολο Websockets για την υλοποίηση του εσωτερικού chat application μεταξύ πελατών και επιχειρήσεων.  
+
+***Resources***  
+- [Πληροφορίες για το HTTP protocol](https://developer.mozilla.org/en-US/docs/Web/HTTP)  
+- [Πληροφορίες για το Websockets protocol](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)  
+
 ***Υλοποίηση***  
-[Πληροφορίες για το HTTP protocol](https://developer.mozilla.org/en-US/docs/Web/HTTP)  
-[Πληροφορίες για το Websockets protocol](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 ---
 
 ### UI/UX
 
-***Ζητούμενα***
+***Ζητούμενα***  
+Να δημιουργηθεί ένα εύχρηστο και ελκιστικό προϊόν, τόσο για τον επαγγελματία, όσο και για τον καταναλωτή.  
+Θα χρειαστούν wireframes, mockups και επικοινωνία με τους frontend developers για ενσωμάτωση σε επίπεδο κώδικα.  
 
-***Υλοποίηση***
+***Resources***  
+- [Τι είναι το UI/UX](https://developgreece.com/ux-ui-design-diafores/)  
+- [Διαφορές UI και UX](https://careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-design-a-laymans-guide/)  
+- [Θέλω αν γίνω Web Designer - Portrait of a Geek](https://www.youtube.com/watch?v=O6IOTj0QLyw)  
+- [Οι περιπέτειες του Πασχάλη στη χώρα του UI/UX - Portrait of a Geek](https://www.youtube.com/watch?v=v-Cb2jBR5HE)  
+- [UI / UX Design Tutorial – Wireframe, Mockup & Design in Figma - freecodecamp](https://www.youtube.com/watch?v=c9Wg6Cb_YlU)  
+- [Figma Tutorial for UI Design - Course for Beginners - freecodecamp](https://www.youtube.com/watch?v=jwCmIBJ8Jtc)
+- [Lessons learned from Reading 10 UI/UX design systems - freecodecamp](https://www.freecodecamp.org/news/lessons-learned-from-reading-10-ui-ux-design-systems/)
+- [Web design tips for developers - Kevin Powell](https://www.youtube.com/watch?v=ykn4XNDwW7Q)  
+- [Designer Roadmap](https://github.com/togiberlin/ui-ux-designer-roadmap)
+  
+***Υλοποίηση***  
+
 
 ---
 
