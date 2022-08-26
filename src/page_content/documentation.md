@@ -4,7 +4,7 @@ layout: ../documentation.njk
 tags: documentation
 ---
 # Ξεκινήστε από εδώ
-### Τι είναι το Bookville.gr
+### Τι είναι το Bookville.
 Το [Bookville.gr](http://Bookville.gr) ήρθε για να ταράξει τα νερά στη βιβλιοφιλική κοινότητα.
 
 Το όνομα Bookville παραπέμπει στο γνωστό SmallVille, χωριό των ΗΠΑ που προσγειώθηκε ο Superman μετά την φυγή του από τον πλανήτη του.
