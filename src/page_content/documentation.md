@@ -37,11 +37,9 @@ tags: documentation
 ---
 
 ### Για τον Καταστηματάρχη
-### Τι θα πρέπει να περιμένει ο καταστηματάρχης;
+***Τι θα πρέπει να περιμένει ο καταστηματάρχης;***  
 
- 
-
-### Έυκολη και γρήγορη διαχείριση αποθέματος
+***Έυκολη και γρήγορη διαχείριση αποθέματος***  
 
 Το [Bookville.gr](http://Bookville.gr) θα διαθέτει καινοτόμο σύστημα διαχείρισης αποθέματος βιβλίων
 
@@ -55,7 +53,7 @@ tags: documentation
 - Real time διαχείριση αποθέματος βιβλίων
 - Δυνατότητα δημοσιοποίησης ολόκληρου του καταλόγου
 
-### Προβολή σε διαδραστικό χάρτη
+***Προβολή σε διαδραστικό χάρτη***  
 
 Για ποιο λόγο να θέλετε να μοιράζεστε το απόθεμα των βιβλίων σας;
 
@@ -65,11 +63,11 @@ tags: documentation
 
 Έτσι ευελπιστούμε να μεγαλώσουμε την αναγνωρισιμότητα του καταστήματος, αξιοποιόντας τεχνολογίες αιχμής.
 
-### ERP
+***ERP***  
 
 Το [Bookville.gr](http://Bookville.gr) υπόσχετε να φέρει σύγχρονες ERP υπηρεσίες στον κλάδο του βιβλίου, σε πολύ προσιτές τιμές.
 
-### Τι είναι το ERP;
+***Τι είναι το ERP;***  
 
 ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφησης. Τρεις όροι για το ίδιο πράγμα.
 
@@ -90,7 +88,7 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 (από το πιο βραχυπρόθεσμο στο πιο μακροπρόθεσμο)
 
-- Ενσωμάτωση LeanTime για ανάθεση και διαχείριση εργασιών, ημερομηνιών κτλ (πλήρης λίστα λειτουργιών [εδώ](https://leantime.io/features/))
+- Λογισμικό για ανάθεση και διαχείριση εργασιών, ημερομηνιών κτλ βασισμένο στην open source εφαρμογή LeanTime (πλήρης λίστα λειτουργιών [εδώ](https://leantime.io/features/))
 - Λογισμικό CRM (Customer Relationship Management) για διαχείριση πελατολογίου
 - Σύστημα Διαχείρισης Προσωπικού
 - Προβολή στατιστικών για το κατάστημα με βάση τις πωλήσεις και τις αναζητήσεις των υποψήφιων πελατών
@@ -102,11 +100,11 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 Όλες οι εφαρμογές θα βρίσκονται και θα τρέχουν στο cloud.
 
-### Events
+***Events***  
 
 Η εφαρμογή θα διαθέτει ειδική κατηγορία Events στην οποία οι εγγεγραμένοι πελάτες θα μπορούν να εκδηλώνουν το ενδιαφέρον τους
 
-### Ενσωματωμένο κανάλι επικοινωνίας B2C
+***Ενσωματωμένο κανάλι επικοινωνίας B2C***  
 
 Η επικοινωνία μεταξύ πελατών και επιχειρήσεων, τώρα πιο εύκολη από ποτέ.
 
@@ -116,26 +114,26 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 Σε βάθος χρόνου, θα υπάρχει ενσωμάτωση ψηφιακού βοηθού ώστε η συλλογή στοιχείων να γίνει ακόμα πιο εύκολη για τον καθένα.
 
-### Πρόσβαση σε δημόσιο server πελατών
+***Πρόσβαση σε δημόσιο server πελατών***  
 
 Οι πελάτες που χρησιμοποιούν το [Bookville.gr](http://Bookville.gr) θα έχουν πρόσβαση σε ένα οργανωμένο server όπου θα μοιράζονται με τους υπόλοιπους την εμπειρία τους με το site και τα συνεργαζόμενα βιβλιοπωλεία.
 
 Εκεί ο καταστηματάρχης θα εντοπίζει αξιολογήσεις από πελάτες και θα βλέπει την αφιλτράριστη εικόνα της κοινότητας για αυτόν. 
 
-### Πρόσβαση σε ιδιωτικό server επικοινωνίας
+***Πρόσβαση σε ιδιωτικό server επικοινωνίας***  
 
 Ο server θα φιλοξενείται στην πλατφόρμα Discord.
 
 Στόχος της συγκεκριμένης κίνησης είναι να προσφέρουμε σύγχρονο customer support σε όλους τους συνεργαζόμενους καταστηματάρχες. Αντιμετωπίζετε κάποιο πρόβλημα με τη εφαρμογή μας; Απευθυνθείτε αμέσως σε εμάς για να το επιλύσουμε.
 
-### Και πολλά ακόμα έρχονται…
+***Και πολλά ακόμα έρχονται…***  
 
 Έχετε κάποια πρόταση; Μετά χαράς να την ακούσουμε στα επίσημα κανάλια επικοινωνίας μας!
 
 ---
 
 ### Για τον Καταναλωτή
-### Τι θα μου προσφέρει;
+***Τι θα μου προσφέρει***;  
 
 Αρχικά μιλάμε για μια open source εφαρμογή. Τι είναι open source; Απευθυνθείτε στην ενότητα Business Model.
 
@@ -143,26 +141,26 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 Πάμε να δούμε όμως τι λειτουργίες θα υπάρχουν από την πρώτη κιόλας στιγμή για όλους τους πελάτες, εγγεγραμμένους και μη.
 
-### Αναζήτηση βιβλίου στην περιοχή μου
+***Αναζήτηση βιβλίου στην περιοχή μου***  
 
 Βασική λειτουργία της εφαρμογής είναι να προσφέρει γρήγορη αναζήτηση ένός βιβλίου στην ευρύτερη περιοχή σας. Μπορείτε να θέσετε αν θέλετε χιλιομετρική ακτίνα από την περιοχή σας ή να χρησιμοποιήσετε την τοποθεσία σας για real time ενημέρωση του χάρτη. Ή και τα δύο συνδιαστικά.
 
-### Αναζήτηση καταλόγου συγκεκριμένου βιβλιοπωλείου
+***Αναζήτηση καταλόγου συγκεκριμένου βιβλιοπωλείου***  
 
 Αν είστε πελάτης ενός συγκεριμένου καταστήματος, μπορείτε να ψάξετε τον κατάλογο του. Ο κατάλογος αυτός θα ενημερώνεται απευθείας από το σύστημα αποθήκης του καταστήματος.
 
 
 ***Με μια δωρεάν εγγραφή θα μπορείτε να αξιοποιήσετε τις εξής λειτουργίες***
 
-### Δημιουργία Wishlist
+***Δημιουργία Wishlist***  
 
 Θέλετε να έρθει ένα βιβλίο στην περιοχή σας; Μπορείτε να το καταχωρήσετε στο προσωπικό σας wishlist και έτσι οι καταστηματάρχες μπορεί να κάνουν την επιθυμία σας πραγματικότητα.
 
-### Blog
+***Blog***  
 
 Θέλετε να μοιραστείτε τις απόψεις σας για τον κόσμο του βιβλίου; Τώρα μπορείτε να τις αναρτήσετε δημόσια και να εισπράξετε feedback από αυτές. Το [Bookville.gr](http://Bookville.gr) προωθεί τον υγειή διάλογο. Θα υπάρχει αυστηρό moderation ώστε να το επιτύχουμε αυτό.
 
-### Πρόσκληση στον Discord Server
+***Πρόσκληση στον Discord Server***  
 
 Με την εγγραφή σας στο site θα πάρετε ένα link για τη συμμετοχή σας στον επίσημο Discord Server της κοινότητας του Bookville. Εκεί θα μπορείτε να εκφράζεστε ελεύθερα για την εμπειρία σας με το site, αλλά και με τα βιβλιοπωλεία που επισκευθήκατε. 
 
@@ -172,23 +170,30 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 ***Τέλος θα υπάρχει και η επιλογή του pro χρήστη***
 
-Με μόλις 3€ το μήνα θα πάρετε τα εξής.
+Με μόλις 5€ το μήνα θα πάρετε τα εξής.
 
-### Προβολή πανελλήνιου χάρτη βιβλιοπωλείων
+***Προβολή πανελλήνιου χάρτη βιβλιοπωλείων***  
 
 Αναρωτηθήκατε ποτέ τι βιβλία πουλάνε στο Σουφλί; Ή στη Μονεμβασιά;
 
 Τώρα μπορείτε να μάθαιτε.
 
-### Ειδικό badge στην κοινότητα του Discord
+***Ειδικό badge στην κοινότητα του Discord***  
 
 Ένα απλό status για να ξέρουμε ποιοι στηρίζουν έμπρακτα το εγχείρημα μας.
 
-Όπως καταλαβαίνετε, ο pro χρήστης δεν έχει αισθητά περισσότερα πλεονεκτήματα από τον απλό χρήστη. Έχει όμως το χαρατήρα της οικονομικής ενίσχυσης της προσπάθειας μας. Αν κάποιος/α το επιλέξει αυτό λοιπόν θα εκτιμηθεί πολύ.
+Όπως καταλαβαίνετε, ο pro χρήστης δεν έχει αισθητά περισσότερα πλεονεκτήματα από τον απλό χρήστη. Έχει όμως το χαρατήρα της οικονομικής ενίσχυσης της προσπάθειας μας. Αν κάποιος/α το επιλέξει αυτό λοιπόν θα εκτιμηθεί πολύ.  
+
+***Και πολλά ακόμα έρχονται…***  
+
+Έχετε κάποια πρόταση; Μετά χαράς να την ακούσουμε στα επίσημα κανάλια επικοινωνίας μας!
 
 ---
 
 ### Κέντρο βοήθειας
+
+Εδώ θα βρείτε άρθρα με απαντήσεις στις ερωτήσεις που δεχόμαστε.  
+Μελλοντικά, θα μεταφερθεί στην δικιά του ενότητα για πιο εύκολη πρόσβαση από τον καθένα.  
 
 ---
 
@@ -209,7 +214,7 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 ### UI/UX
 
 ***Ζητούμενα***  
-Να δημιουργηθεί ένα εύχρηστο και ελκιστικό προϊόν, τόσο για τον επαγγελματία, όσο και για τον καταναλωτή.  
+Να δημιουργηθεί ένα εύχρηστο, προσβάσιμο και ελκιστικό προϊόν, τόσο για τον επαγγελματία, όσο και για τον καταναλωτή.  
 Θα χρειαστούν wireframes, mockups και επικοινωνία με τους frontend developers για ενσωμάτωση σε επίπεδο κώδικα.  
 
 ***Resources***  
@@ -221,6 +226,7 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 - [Figma Tutorial for UI Design - Course for Beginners - freecodecamp](https://www.youtube.com/watch?v=jwCmIBJ8Jtc)
 - [Lessons learned from Reading 10 UI/UX design systems - freecodecamp](https://www.freecodecamp.org/news/lessons-learned-from-reading-10-ui-ux-design-systems/)
 - [Web design tips for developers - Kevin Powell](https://www.youtube.com/watch?v=ykn4XNDwW7Q)  
+- [Accessibility Checker](https://www.accessibilitychecker.org/)
 - [Designer Roadmap](https://github.com/togiberlin/ui-ux-designer-roadmap)
   
 ***Υλοποίηση***  
@@ -240,6 +246,7 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 - [Getting Started With React - The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript#react-js)
 - [The React Handbook - freecodecamp](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/)
 - [Material UI in React - MUI](https://www.valentinog.com/blog/webpack/)
+- [QR code scanner with React](https://www.npmjs.com/package/react-qr-scanner)
 - [React best practices - freecodecamp](https://www.freecodecamp.org/news/best-practices-for-react/)
 - [How to consume APIs in React - freecodecamp](https://www.freecodecamp.org/news/how-to-consume-rest-apis-in-react/)
 - [Axios React GET/POST/DELETE - freecodecamp](https://www.freecodecamp.org/news/axios-react-how-to-make-get-post-and-delete-api-requests/)
@@ -248,6 +255,7 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 - [Webpack guide - Valentinog](https://www.valentinog.com/blog/webpack/)
 - [Parceljs Docs](https://parceljs.org/docs/)
 - [Babel guide](https://www.youtube.com/watch?v=KRY_JYBUbUM)
+- [Accessibility Checker](https://www.accessibilitychecker.org/)
 - [How to test React applications - freecodecamp](https://www.freecodecamp.org/news/how-to-test-react-applications/)
 
 ***Υλοποίηση***  
@@ -256,7 +264,44 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 ### Backend Development
 
-***Ζητούμενα***
+***Ζητούμενα***  
+
+***Resources***  
+- Django
+  - [Official Documentation](https://docs.djangoproject.com/en/4.1/)
+  - [Real Python articles](https://realpython.com/search?q=django)
+  - [Corey Schafer on YT - Django Series](https://www.youtube.com/watch?v=UmljXZIypDc&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p&index=1)
+  - [Very Academy on YT - Learn Django Series](https://www.youtube.com/playlist?list=PLOLrQ9Pn6cazTA2QyG2R2UT7MQCAOK3W4)
+  - [Dennis Ivy on YT - Django 2021 Crash Course](https://www.youtube.com/playlist?list=PL-51WBLyFTg1pUMaTJ4WSgnyvWfLGmwDm)
+  - [JustDjango on YT - Getting started with Django tutorial](https://www.youtube.com/watch?v=fOukA4Qh9QA)
+  - [Pyplane on YT - Practical Django](https://www.youtube.com/playlist?list=PLgjw1dR712jr9OIvqyKntapFHndc0SwsP)
+- Django REST Framework
+  - [Official Documentation](https://www.django-rest-framework.org/)
+  - [Classy DRF](https://www.cdrf.co/)
+  - [DRF Serializers and CRUD](https://www.youtube.com/watch?v=TmsD8QExZ84)
+  - [Token Authentication](https://www.youtube.com/playlist?list=PL-51WBLyFTg1gPEHotYAhNAPsisChkyTc)
+  - [Simple API](https://www.youtube.com/watch?v=7AkTv4Sl9S4)
+- Django ORM
+  - [Very Academy on YT - ORM Mastery Course 4.X](https://www.youtube.com/playlist?list=PLOLrQ9Pn6cayYycbeBdxHUFrzTqrNE7Pe)
+  - [Very Academy on YT - ORM Mastery Course](https://www.youtube.com/playlist?list=PLOLrQ9Pn6cazjoDEnwzcdWWf4SNS0QZml)
+- Django Packages
+  - Dj-rest-auth
+    - [readthedocs](https://dj-rest-auth.readthedocs.io/en/latest/)
+    - [JustDjango on YT - DJ-rest-auth](https://www.youtube.com/watch?v=KYPRfmQnhn8)
+  - Django-allauth
+    - [readthedocs](https://django-allauth.readthedocs.io/en/latest/)
+  - Simple-JWT
+    - [readthedocs](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/)
+  - Django admin honeypot
+    - [pypi](https://pypi.org/project/django-admin-honeypot-updated-2021/)
+  - Django phonenumber field
+    - [pypi](https://pypi.org/project/django-phonenumber-field/)
+  - Django Guardian
+    - [readthedocs](https://django-guardian.readthedocs.io/en/stable/)
+  - Django Comments xtd
+    - [readthedocs](https://django-comments-xtd.readthedocs.io/en/latest/index.html)
+  - Django REST Pandas
+    - [github](https://github.com/wq/django-rest-pandas)
 
 ***Υλοποίηση***
 
@@ -264,7 +309,11 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 ### Full Stack Development
 
-***Ζητούμενα***
+***Ζητούμενα***  
+
+***Resources***  
+- [DRF with React and Redux](https://www.youtube.com/playlist?list=PL2t6cW2FkFCg9Ky0CphSSr0pJwHNb1pny)
+- [Django and React Project (For Reference Only)](https://www.youtube.com/playlist?list=PLLRM7ROnmA9FxCtnLoIHAs6hIkJyd1dEx)
 
 ***Υλοποίηση***
 
@@ -272,7 +321,11 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 ### Database Optimization
 
-***Ζητούμενα***
+***Ζητούμενα***  
+
+***Resources***  
+- [PostgreSQL docs](https://www.postgresql.org/docs/)
+
 
 ***Υλοποίηση***
 
