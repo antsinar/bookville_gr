@@ -19,11 +19,10 @@ tags: documentation
 
 Ο επιχειρηματικός μας στόχος μας είναι διπλός.
 
-- Να παρέχουμε σύγχρονα εργαλεία μηχανογράφησης και όχι μόνο, όσο αφορά τις επιχειρήσεις, μέσω γρήγορης και αξιόπιστης τεχνολογίας cloud.
+- Να παρέχουμε σύγχρονα εργαλεία οργάνωσης και όχι μόνο, όσο αφορά τις επιχειρήσεις, μέσω γρήγορης και αξιόπιστης τεχνολογίας cloud.
 - Να παρέχουμε ευκολία στην αναζήτηση βιβλίων στην τοπική αγορά, για τον καταναλωτή.
 
-Αναλυτικά οι υπηρεσίες που παρέχονται θα βρίσκονται στις εκάστοτε σελίδες
-
+Αναλυτικά οι παρεχόμενες υπηρεσίες θα βρίσκονται στις αντίστοιχες σελίδες.
 
 ---
 
@@ -45,11 +44,11 @@ tags: documentation
 
 Πιο αναλυτικά
 
-- Δυνατότητα scanαρίσματος ISBN για υποβολή στοιχείων
+- Δυνατότητα scanαρίσματος ISBN για υποβολή στοιχείων χωρίς ειδικό εξοπλισμό όπως barcode scanner, αλλά με τη χρήση της κάμερας του κινητού του εγγεγραμμένου χρήστη
 - Αυτόματη υποβολή στοιχείων βιβλίου μόνο με το σκανάρισμα του ISBN
 - Χρήση πολλαπλασιαστή για κατωχύρωση ενός βιβλίου όσες φορές χρειαστεί
 - Υποβολή αρχείου .xslx ή .csv με λίστα ISBN προς υποβολή
-- Καταχώρηση πώλησης με το scanάρισμα (κινητό) του ήδη κατωχυρωμένου ISBN
+- Καταχώρηση πώλησης με το scanάρισμα (κινητό) του ήδη κατωχυρωμένου ISBN με τη χρήση της κάμερας του κινητού του εγγεγραμμένου χρήστη
 - Real time διαχείριση αποθέματος βιβλίων
 - Δυνατότητα δημοσιοποίησης ολόκληρου του καταλόγου
 
@@ -71,7 +70,7 @@ tags: documentation
 
 ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφησης. Τρεις όροι για το ίδιο πράγμα.
 
-Συνοπτικά, είναι ένα σύστημα λογισμικού, το οποίο είναι επιφορτισμένο με το να διαχειρίζεται όλες τις λειτουργίες της επιχείρησης. Αυτό επιτυγχάνεται με την ορθολογικότερη οργάνωση και αξιοποίηση δεδομένων και πόρων της επιχείρησης.
+Συνοπτικά, είναι ένα σύστημα λογισμικού, το οποίο είναι επιφορτισμένο με το να διαχειρίζεται όλες τις λειτουργίες της επιχείρησης. Αυτό επιτυγχάνεται με την ορθολογικότερη οργάνωση και αξιοποίηση δεδομένων και πόρων της επιχείρησης.  
 
 Βασικά χαρακτηριστικά μιας σουίτας ERP λογισμικού είναι τα εξής (σύμφωνα με τη wikipedia).
 
@@ -84,11 +83,15 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 Αναλυτικότερα οι δυνατότητες του Odoo [εδώ](https://www.odoo.com/page/editions).
 
+Παραδοσιακά, τέτοιες σουίτες λογισμικού ήταν απαγορευτικά ακριβές για τις μικρότερες επιχειρήσεις, ανεξαρτήτως κλάδου.  
+Ενδεικτικά, η σουίτα NetSuite της εταιρίας κολοσού Oracle, με όλες τις λειτουργίες ενσωματωμένες, κοστίζει 1000 δολάρια/μήνα (σύμφωνα με το site [businessnewsdaily.com](https://www.businessnewsdaily.com/oracle-netsuite-review.html)) μόνο για την άδεια χρήσης, ενώ κάθε συνδεδεμένος χρήστης θα κοστίσει συν 100 δολάρια στην επιχείρηση κάθε μήνα. Φυσικά προσφέρει διάφορα άριστης ποιότητας καλούδια που όμως αφήνουν μια τοπική επιχείρηση παγερά αδιάφορη.  
+Σε μια πιο προσιτή λύση, η πλατφόρμα Odoo που ανέφερα προηγουμένως, στην επί πληρωμή hosted έκδοση της, προσφέρει μεμονομένες υπηρεσίες, που σημαίνει πως ο καθένας μπορεί να φτιάξει το πλάνο που τον καλύπτει. Σε ένα παράδειγμα μια εταιρίας με 3 εγγεγραμένους χρήστες και λειτουργίες που προσωπικά θεωρώ απαραίτητες το μηνιαίο κόστος ανέρχεται στα 100 με 140 ευρώ το μήνα. Πολύ πιο διαχειρίσιμο ποσό από του NetSuite, όμως μπορούμε και καλύτερα.  
+
 Σε βάθος χρόνου λοιπόν, θα είμαστε σε θέση να προσφέρουμε τις ακόλουθες υπηρεσίες
 
 (από το πιο βραχυπρόθεσμο στο πιο μακροπρόθεσμο)
 
-- Λογισμικό για ανάθεση και διαχείριση εργασιών, ημερομηνιών κτλ βασισμένο στην open source εφαρμογή LeanTime (πλήρης λίστα λειτουργιών [εδώ](https://leantime.io/features/))
+- Λογισμικό για ανάθεση και διαχείριση εργασιών, ημερομηνιών, ραντεβού κτλ βασισμένο στην open source εφαρμογή LeanTime (πλήρης λίστα λειτουργιών [εδώ](https://leantime.io/features/))
 - Λογισμικό CRM (Customer Relationship Management) για διαχείριση πελατολογίου
 - Σύστημα Διαχείρισης Προσωπικού
 - Προβολή στατιστικών για το κατάστημα με βάση τις πωλήσεις και τις αναζητήσεις των υποψήφιων πελατών
@@ -98,11 +101,11 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 Και όσο για την υποδομή, δε χρειάζεται να ανησυχείτε, το αναλαμβάνουμε εμείς.
 
-Όλες οι εφαρμογές θα βρίσκονται και θα τρέχουν στο cloud.
+Όλες οι εφαρμογές θα βρίσκονται και θα τρέχουν στο cloud, οπότε δεν υπάρχει η ανάγκη τοπικής εγκατάστασης των εφαρμογών.
 
 ***Events***  
 
-Η εφαρμογή θα διαθέτει ειδική κατηγορία Events στην οποία οι εγγεγραμένοι πελάτες θα μπορούν να εκδηλώνουν το ενδιαφέρον τους
+Η εφαρμογή θα διαθέτει ειδική κατηγορία Events στην οποία οι εγγεγραμένοι πελάτες θα μπορούν να εκδηλώνουν το ενδιαφέρον τους.
 
 ***Ενσωματωμένο κανάλι επικοινωνίας B2C***  
 
@@ -139,7 +142,7 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 Συνεπώς πέρα από τις υπηρεσίες που θα προσφέρουμε εμείς σε εσάς, μπορείτε να συνεισφέρετε και εσείς με τον τρόπο σας.
 
-Πάμε να δούμε όμως τι λειτουργίες θα υπάρχουν από την πρώτη κιόλας στιγμή για όλους τους πελάτες, εγγεγραμμένους και μη.
+Πάμε να δούμε όμως τι λειτουργίες θα υπάρχουν από την πρώτη κιόλας στιγμή για όλους τους πελάτες.
 
 ***Αναζήτηση βιβλίου στην περιοχή μου***  
 
@@ -198,6 +201,30 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 ---
 
 # Τεχνικά
+### Version Control
+
+***Ζητούμενα***  
+Έχουμε αισίως 2022. Δε νοείται άνθρωπος που θέλει να γράψει κώδικα σε οποιοδήποτε κλάδο να μην ξέρει τα βασικά του git.  
+Είναι 15' υπόθεση, σε περίπτωση που το φοβάστε.  
+Αν κάτι κρατήσετε από όλο το project, σας θερμοπαρακαλώ ας είναι αυτό. Θα σας κάνει τη ζωή πολύ πιο εύκολη, σας το υπόσχομαι.  
+
+***Resources***  
+- [Git Handbook](https://www.freecodecamp.org/news/the-essential-git-handbook-a1cf77ed11b5/)
+- [Introduction to Git - The Odin Project](https://www.theodinproject.com/lessons/foundations-introduction-to-git)
+- [Git Basics - The Odin Project](https://www.theodinproject.com/lessons/foundations-git-basics)
+- [Git for Professionals](https://www.youtube.com/watch?v=Uszj_k0DGsg)
+
+### Markdown
+
+***Ζητούμενα***  
+Όλα τα κείμενα, από τα reports/καταγραφές των αλλαγών στον κώδικα ως τα κείμενα αυτού εδώ του site θα γράφονται με το συντακτικό της markdown.  
+Πολύ απλή γλώσσα στην εκμάθηση και πολύ βολική, ειδικά για τους προγραμματιστές.  
+
+***Resources***  
+- [Basic syntax](https://www.markdownguide.org/basic-syntax/)
+- [Extended syntax](https://www.markdownguide.org/extended-syntax/)- 
+- [Hacks](https://www.markdownguide.org/hacks/) 
+
 ### Protocols
 
 ***Ζητούμενα***  
@@ -323,6 +350,7 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 ### Full Stack Development
 
 ***Ζητούμενα***  
+Διασύνδεση του React app με τον Django API με καθαρό, αποδοτικό και συντηρήσιμο τρόπο.  
 
 ***Resources***  
 - [DRF with React and Redux](https://www.youtube.com/playlist?list=PL2t6cW2FkFCg9Ky0CphSSr0pJwHNb1pny)
@@ -335,10 +363,12 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 ### Database Optimization
 
 ***Ζητούμενα***  
+Οι κλήσεις προς τη βάση δεδομένων είναι η καρδιά κάθε σύγχρονης εφαρμογής διαδικτύου. Εύκολα καταλαβαίνουμε λοιπόν πως η εμπειρία του χρήστη και η απόδοση της βάσης δεδομένων πάνε χέρι χέρι.  
+Θα προσπαθίσουμε λοιπόν να κάνουμε όσο πιο αποδοτικές τις κλήσεις αυτές.  
 
 ***Resources***  
-- [PostgreSQL docs](https://www.postgresql.org/docs/)
-
+- [PostgreSQL Documentation](https://www.postgresql.org/docs/)
+- [Database access optimization - Django Docomentation](https://docs.djangoproject.com/en/4.1/topics/db/optimization/)
 
 ***Υλοποίηση***
 
@@ -366,7 +396,8 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 - Option 3 | Container Orchestration  
   ***in the case microservices are used*** 
   - [Microservices explained](https://www.youtube.com/watch?v=rv4LlmLmVWk)
-  - [Python microservices](https://www.youtube.com/watch?v=0iB5IPoTDts)
+  - [Python microservices](https://www.youtube.com/watch?v=0iB5IPoTDts)  
+    ***end of microservices***
   - [CodingEnterprenuers on YT - Deploy Django w/ Kubernetes and Docker](https://www.youtube.com/watch?v=NAOsLaB6Lfc)
   - [Docker on YT - Containerized Deployments](https://www.youtube.com/watch?v=4CHIePB9cOI)
   - [TechWorld with Nana on YT - Kubernetes Crash Course for beginners](https://www.youtube.com/watch?v=s_o8dwzRlu4)
@@ -377,6 +408,19 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
   - [Kubernetes book](https://www.redhat.com/cms/managed-files/cm-oreilly-kubernetes-patterns-ebook-f19824-201910-en.pdf)
   - [Kubernetes Handbook](https://www.freecodecamp.org/news/the-kubernetes-handbook/)
   - [NGINX documentation](https://docs.nginx.com/)
+
+***Υλοποίηση***  
+
+---
+
+### Object Storage
+***Ζητούμενα***  
+Η χρήση object storage είναι ο πλέον διαδεδομένος και αποδοτικός τρόπος να υπάρχουν τα στατικά αρχεία σε ένα server.  
+Βασικό είναι να κατανοήσουμε σε βάθος πως λειτουργεί το object storage.  
+
+***Resources***    
+- [Google object storage](https://cloud.google.com/learn/what-is-object-storage)
+- [Amazon object storage](https://aws.amazon.com/what-is-cloud-object-storage/)
 
 ***Υλοποίηση***  
 
