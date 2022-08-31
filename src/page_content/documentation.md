@@ -237,7 +237,11 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 ### Frontend Development
 
 ***Ζητούμενα***  
-Θα χρησιμοποιηθεί το React Framework για την υλοποίηση του Frontend κομματιού του project  
+
+Θα χρησιμοποιηθεί το React Framework για την υλοποίηση του Frontend κομματιού του project.  
+Σημαντικό ο κώδικας να είναι τόσο εύκολος στη συντήριση από πολλούς και διαφορετικού επιπέδου συνεργάτες, όσο και scalable με το βλέμα στο μέλλον.  
+**Απαραίτητα και υποχρεωτικά** τα σχόλια στον κώδικα.  
+Ανάληψη από έναν υπεύθυνο χαρτογράφισης της εφαρμογής. Είναι σημαντικό να υπάρχει καταγραφή της κάθε μετατροπής/ προσθήκης στον κώδικα ώστε να παραμείνει διαχειρίσιμη η συντήρισή του. 
 
 ***Resources***  
 - [Frontend Development roadmap - roadmap.sh](https://roadmap.sh/frontend)
@@ -246,7 +250,11 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 - [Getting Started With React - The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript#react-js)
 - [The React Handbook - freecodecamp](https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/)
 - [Material UI in React - MUI](https://www.valentinog.com/blog/webpack/)
-- [QR code scanner with React](https://www.npmjs.com/package/react-qr-scanner)
+- [QR code scanner w/ React](https://www.npmjs.com/package/react-qr-scanner)
+- [Barcode scanner w/ Quagga](https://serratus.github.io/quaggaJS/)
+- [Barcode scanner w/ ZXing-js](https://github.com/zxing-js/library)
+- [React Leaflet (Open Street Maps)](https://react-leaflet.js.org/)
+- [Google Maps w/ React](https://github.com/google-map-react/google-map-react)
 - [React best practices - freecodecamp](https://www.freecodecamp.org/news/best-practices-for-react/)
 - [How to consume APIs in React - freecodecamp](https://www.freecodecamp.org/news/how-to-consume-rest-apis-in-react/)
 - [Axios React GET/POST/DELETE - freecodecamp](https://www.freecodecamp.org/news/axios-react-how-to-make-get-post-and-delete-api-requests/)
@@ -265,6 +273,11 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 ### Backend Development
 
 ***Ζητούμενα***  
+
+Δημιουργία REST API με τις λειτουργίες που περιγράφονται στις ενότητες "Για τον Καταστηματάρχη" και "Για τον Καταναλωτή"  
+Σημαντικό ο κώδικας να είναι τόσο εύκολος στη συντήριση από πολλούς και διαφορετικού επιπέδου συνεργάτες, όσο και scalable με το βλέμα στο μέλλον.  
+**Απαραίτητα και υποχρεωτικά** τα σχόλια στον κώδικα.  
+Ανάληψη από έναν υπεύθυνο χαρτογράφισης της εφαρμογής. Είναι σημαντικό να υπάρχει καταγραφή της κάθε μετατροπής/ προσθήκης στον κώδικα ώστε να παραμείνει διαχειρίσιμη η συντήρισή του.  
 
 ***Resources***  
 - Django
@@ -333,9 +346,39 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 ### Deployment
 
-***Ζητούμενα***
+***Ζητούμενα***  
 
-***Υλοποίηση***
+Σε πρώτη φάση, απαραίτητη είναι η επιλογή του τύπου του deployment.  
+Παρατήθονται όλες οι διαθέσιμες επιλογές.  
+Εκτός απροόπτου, θα χρησιμοποιηθούν containers, τόσο διότι είναι μια τεχνολογία που καλό είναι να γνωρίζει ο καθένας που εισέρχεται στο χώρο, όσο επίσης και για τις δυνατότητες που δίνει σε επίπεδο scalability.  
+
+***Resources***  
+- Option 1 | PaaS (Platform as a Service)
+  - [Caprover documentation](https://caprover.com/docs/get-started.html)
+  - [Caprover guide](https://www.youtube.com/watch?v=pIF5B-D8jD4)
+- Option 2 | Containers
+  - [Docker Mastery - Very Academy](https://www.youtube.com/playlist?list=PLOLrQ9Pn6cazCfL7v4CdaykNoWMQymM_C)
+  - [The Docker Handbook - freecodecamp](https://www.freecodecamp.org/news/the-docker-handbook/)
+  - [Portainer Documentation](https://docs.portainer.io/)
+  - [Docker Series - Tech with Nana](https://www.youtube.com/playlist?list=PLy7NrYWoggjzfAHlUusx2wuDwfCrmJYcs)
+  - [Azure Container Instances](https://www.youtube.com/watch?v=jAWLQFi4USk)
+  - [AWS ECR](https://www.youtube.com/watch?v=AYAh6YDXuho)
+- Option 3 | Container Orchestration  
+  ***in the case microservices are used*** 
+  - [Microservices explained](https://www.youtube.com/watch?v=rv4LlmLmVWk)
+  - [Python microservices](https://www.youtube.com/watch?v=0iB5IPoTDts)
+  - [CodingEnterprenuers on YT - Deploy Django w/ Kubernetes and Docker](https://www.youtube.com/watch?v=NAOsLaB6Lfc)
+  - [Docker on YT - Containerized Deployments](https://www.youtube.com/watch?v=4CHIePB9cOI)
+  - [TechWorld with Nana on YT - Kubernetes Crash Course for beginners](https://www.youtube.com/watch?v=s_o8dwzRlu4)
+  - [Microsoft Azure on YT - Tips and Tricks](https://www.youtube.com/playlist?list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC)
+  - [Linode on YT - Kubernetes with Helm](https://www.youtube.com/playlist?list=PLTnRtjQN5ieYD97JCZtcGbIjq1EINih2G)
+  - [Helm docs](https://helm.sh/docs/)
+  - [TechWorld with Nana - What is Helm?](https://www.youtube.com/watch?v=-ykwb1d0DXU)
+  - [Kubernetes book](https://www.redhat.com/cms/managed-files/cm-oreilly-kubernetes-patterns-ebook-f19824-201910-en.pdf)
+  - [Kubernetes Handbook](https://www.freecodecamp.org/news/the-kubernetes-handbook/)
+  - [NGINX documentation](https://docs.nginx.com/)
+
+***Υλοποίηση***  
 
 ---
 
