@@ -428,7 +428,10 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 ### CI /CD/ Automation /Testing
 
-***Ζητούμενα***
+***Ζητούμενα***  
+
+***Resources***  
+- [Github Actions ](https://www.youtube.com/watch?v=R8_veQiYBjI)
 
 ***Υλοποίηση***
 
