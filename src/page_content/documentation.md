@@ -432,6 +432,12 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 ***Resources***  
 - [Github Actions ](https://www.youtube.com/watch?v=R8_veQiYBjI)
+- [Complete Jenking Pipeline Tutorial](https://www.youtube.com/watch?v=7KCS70sCoK0)
+- [Jenkind ebook](https://riptutorial.com/Download/jenkins.pdf)
+- [Jenkins Documentation](https://www.jenkins.io/doc/book/)
+- [Ansible ebook](https://www.ansible.com/resources/ebooks)
+- [ELK Stack talk](https://www.youtube.com/watch?v=DRQJHOOstY0)
+- [Circle CI with AWS](https://www.youtube.com/watch?v=WDy4-m4V76Q)
 
 ***Υλοποίηση***
 
