@@ -4,7 +4,7 @@ layout: ../documentation.njk
 tags: documentation
 ---
 # Ξεκινήστε από εδώ
-### Τι είναι το Bookville.
+### Τι είναι το Bookville <a name="what-is"></a>
 Το [Bookville.gr](http://Bookville.gr) ήρθε για να ταράξει τα νερά στη βιβλιοφιλική κοινότητα.
 
 Το όνομα Bookville παραπέμπει στο γνωστό SmallVille, χωριό των ΗΠΑ που προσγειώθηκε ο Superman μετά την φυγή του από τον πλανήτη του.
@@ -26,7 +26,7 @@ tags: documentation
 
 ---
 
-### Τι δεν είναι το Bookville.gr
+### Τι δεν είναι το Bookville.gr <a name="what-is-not"></a>
 Το [Bookville.gr](http://Bookville.gr) δεν είναι σε καμία περίπτωση ένα ακόμα eshop.
 
 Δεν υπάρχει καν σκέψη για ενσωμάτωση πωλήσεων.
@@ -35,7 +35,7 @@ tags: documentation
 
 ---
 
-### Για τον Καταστηματάρχη
+### Για τον Καταστηματάρχη <a name="for-the-owner"></a>
 ***Τι θα πρέπει να περιμένει ο καταστηματάρχης;***  
 
 ***Έυκολη και γρήγορη διαχείριση αποθέματος***  
@@ -135,7 +135,7 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 ---
 
-### Για τον Καταναλωτή
+### Για τον Καταναλωτή <a name="for-the-consumer"></a>
 ***Τι θα μου προσφέρει***;  
 
 Αρχικά μιλάμε για μια open source εφαρμογή. Τι είναι open source; Απευθυνθείτε στην ενότητα Business Model.
@@ -193,7 +193,7 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 ---
 
-### Κέντρο βοήθειας
+### Κέντρο βοήθειας <a name="getting-help"></a>
 
 Εδώ θα βρείτε άρθρα με απαντήσεις στις ερωτήσεις που δεχόμαστε.  
 Μελλοντικά, θα μεταφερθεί στην δικιά του ενότητα για πιο εύκολη πρόσβαση από τον καθένα.  
@@ -201,7 +201,7 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 ---
 
 # Τεχνικά
-### Version Control
+### Version Control <a name="git"></a>
 
 ***Ζητούμενα***  
 Έχουμε αισίως 2022. Δε νοείται άνθρωπος που θέλει να γράψει κώδικα σε οποιοδήποτε κλάδο να μην ξέρει τα βασικά του git.  
@@ -214,7 +214,7 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 - [Git Basics - The Odin Project](https://www.theodinproject.com/lessons/foundations-git-basics)
 - [Git for Professionals](https://www.youtube.com/watch?v=Uszj_k0DGsg)
 
-### Markdown
+### Markdown <a name="markdown"></a>
 
 ***Ζητούμενα***  
 Όλα τα κείμενα, από τα reports/καταγραφές των αλλαγών στον κώδικα ως τα κείμενα αυτού εδώ του site θα γράφονται με το συντακτικό της markdown.  
@@ -225,7 +225,7 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 - [Extended syntax](https://www.markdownguide.org/extended-syntax/)- 
 - [Hacks](https://www.markdownguide.org/hacks/) 
 
-### Protocols
+### Protocols <a name="protocols"></a>
 
 ***Ζητούμενα***  
 Θα χρησιμοποιηθούν οι μέθοδοι GET/POST/PUT/DELETE του προτοκόλου HTTP για την υλοποίηση του REST API.   
@@ -238,7 +238,7 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 ***Υλοποίηση***  
 ---
 
-### UI/UX
+### UI/UX <a name="uiux"></a>
 
 ***Ζητούμενα***  
 Να δημιουργηθεί ένα εύχρηστο, προσβάσιμο και ελκιστικό προϊόν, τόσο για τον επαγγελματία, όσο και για τον καταναλωτή.  
@@ -261,7 +261,7 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 ---
 
-### Frontend Development
+### Frontend Development <a name="frontend"></a>
 
 ***Ζητούμενα***  
 
@@ -297,7 +297,7 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 ---
 
-### Backend Development
+### Backend Development <a name="back"></a>
 
 ***Ζητούμενα***  
 
@@ -347,7 +347,7 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 ---
 
-### Full Stack Development
+### Full Stack Development <a name="full"></a>
 
 ***Ζητούμενα***  
 Διασύνδεση του React app με τον Django API με καθαρό, αποδοτικό και συντηρήσιμο τρόπο.  
@@ -360,7 +360,7 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 ---
 
-### Database Optimization
+### Database Optimization <a name="db"></a>
 
 ***Ζητούμενα***  
 Οι κλήσεις προς τη βάση δεδομένων είναι η καρδιά κάθε σύγχρονης εφαρμογής διαδικτύου. Εύκολα καταλαβαίνουμε λοιπόν πως η εμπειρία του χρήστη και η απόδοση της βάσης δεδομένων πάνε χέρι χέρι.  
@@ -374,7 +374,7 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 ---
 
-### Deployment
+### Deployment <a name="deployment"></a>
 
 ***Ζητούμενα***  
 
@@ -413,7 +413,7 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 ---
 
-### Object Storage
+### Object Storage <a name="object"></a>
 ***Ζητούμενα***  
 Η χρήση object storage είναι ο πλέον διαδεδομένος και αποδοτικός τρόπος να υπάρχουν τα στατικά αρχεία σε ένα server.  
 Βασικό είναι να κατανοήσουμε σε βάθος πως λειτουργεί το object storage.  
@@ -426,7 +426,7 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 ---
 
-### CI /CD/ Automation /Testing
+### CI /CD/ Automation /Testing <a name="ci"></a>
 
 ***Ζητούμενα***  
 
@@ -443,7 +443,7 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 ---
 
-### Performance Monitoring
+### Performance Monitoring <a name="performance"></a>
 
 ***Ζητούμενα***
 
@@ -451,7 +451,7 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 ---
 
-### App Analytics
+### App Analytics <a name="analytics"></a>
 
 ***Ζητούμενα***
 
@@ -459,7 +459,7 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 ---
 
-### Server Monitoring
+### Server Monitoring <a name="monitoring"></a>
 
 ***Ζητούμενα***
 
@@ -467,7 +467,7 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 ---
 
-### Server Backup /Restore
+### Server Backup /Restore <a name="backup"></a>
 
 ***Ζητούμενα***
 
@@ -475,7 +475,7 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 
 ---
 
-### App Security
+### App Security <a name="security"></a>
 
 ***Ζητούμενα***  
 
@@ -487,7 +487,7 @@ ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφηση
 ---
 
 # Διοικητικά
-### Business Model
+### Business Model <a name="model"></a>
 
 ***Open Source Software***  
 Σύμφωνα με το [ellak.gr](https://ellak.gr), το ΕΛ/ΛΑΚ (Ελεύθερο Λογισμικό / Λογισμικό Ανοιχτού Κώδικα) είναι το εξής:
@@ -519,7 +519,7 @@ Source Software) ή FLOSS (Free/Libre/Open Source software).
 
 ---
 
-### Monetization
+### Monetization <a name="monetization"></a>
 ***Σημαντικό***  
 Τα συνδρομητικά προγράμματα αφορούν την τελική έκδοση της εφαρμογής.
 Μέχρι τότε, η εφαρμογή θα είναι δωρεάν στη χρήση με περιορισμένες προφανώς λειτουργίες, μιας και είμαστε στη φάση της ανάπτυξης. Οι τιμές που αναγράφονται δύναται να αλλάξουν, και το πιο πιθανό είναι να το κάνουν, μόλις ξεκαθαρίσουν περισσότερο τα οικονομικά δεδομένα του project. Θα υπάρξει σχετική ανακοίνωση στην κατηγορία devlog.  
@@ -614,31 +614,31 @@ Source Software) ή FLOSS (Free/Libre/Open Source software).
 
 ---
 
-### Marketing
+### Marketing <a name="marketing"></a>
 
 ---
 
-### Expansion Strategy
+### Expansion Strategy <a name="expansion"></a>
 
 ---
 
-### Νομικά Θέματα
+### Νομικά Θέματα <a name="law"></a>
 
 ---
 
-### Λογιστικά /Οικονομικά Θέματα
+### Λογιστικά /Οικονομικά Θέματα <a name="finance"></a>
 
 ---
 
-### Lead Management
+### Lead Management <a name="leads"></a>
 
 ---
 
-### Κανονισμοί Κοινότητας
+### Κανονισμοί Κοινότητας <a name="community"></a>
 
 ---
 
-### Προβλήματα προς Επίλυση
+### Προβλήματα προς Επίλυση <a name="problems"></a>
 
 Εδώ θα αναγράφονται πιθανά προβλήματα και προβληματισμοί που μπορεί να προκύψουν όσο τρέχει το project.  
 

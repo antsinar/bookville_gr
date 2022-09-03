@@ -67,6 +67,8 @@
                     </button>
                     <div class="collapse" id="home-collapse">
                       <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a href="#git" class="link-dark d-inline-flex text-decoration-none rounded">Version Control</a></li>
+                        <li><a href="#markdown" class="link-dark d-inline-flex text-decoration-none rounded">Markdown</a></li>
                         <li><a href="#protocols" class="link-dark d-inline-flex text-decoration-none rounded">Protocols</a></li>
                         <li><a href="#uiux" class="link-dark d-inline-flex text-decoration-none rounded">UI/UX</a></li>
                         <li><a href="#front" class="link-dark d-inline-flex text-decoration-none rounded">Frontend Development</a></li>
@@ -74,6 +76,7 @@
                         <li><a href="#full" class="link-dark d-inline-flex text-decoration-none rounded">Full Stack Development</a></li>
                         <li><a href="#db" class="link-dark d-inline-flex text-decoration-none rounded">Database</a></li>
                         <li><a href="#deployment" class="link-dark d-inline-flex text-decoration-none rounded">Deployment</a></li>
+                        <li><a href="#object" class="link-dark d-inline-flex text-decoration-none rounded">Object Storage</a></li>
                         <li><a href="#ci" class="link-dark d-inline-flex text-decoration-none rounded">CI/ CD/ Automation/ Testing</a></li>
                         <li><a href="#performance" class="link-dark d-inline-flex text-decoration-none rounded">App Performance Monitoring</a></li>
                         <li><a href="#analytics" class="link-dark d-inline-flex text-decoration-none rounded">App Analytics</a></li>
@@ -108,7 +111,553 @@
             <div class="flex-shrink-0 p-3 bg-white">
                 <h1>Περιγραφή</h1>
                 <div class="wiki">
-                    
+                    <h1>Ξεκινήστε από εδώ</h1>
+<h3>Τι είναι το Bookville <a name="what-is"></a></h3>
+<p>Το <a href="http://Bookville.gr">Bookville.gr</a> ήρθε για να ταράξει τα νερά στη βιβλιοφιλική κοινότητα.</p>
+<p>Το όνομα Bookville παραπέμπει στο γνωστό SmallVille, χωριό των ΗΠΑ που προσγειώθηκε ο Superman μετά την φυγή του από τον πλανήτη του.</p>
+<p>Το βιβλιοχώρι αλλιώς, έχει θέσει ως σκοπό την ανάδειξη της κοινότητας.</p>
+<p>Αποτελεί μια all in one λύση διαχείρισης αποθέματος και προώθησης βιβλιοπωλείων.</p>
+<p>Όχι μόνο αυτό όμως.</p>
+<p>Για τον πελάτη, θα είναι μια πλατφόρμα αναζήτησης βιβλίων στην ευρύτερη περιοχή του.</p>
+<p>Ο επιχειρηματικός μας στόχος μας είναι διπλός.</p>
+<ul>
+<li>Να παρέχουμε σύγχρονα εργαλεία οργάνωσης και όχι μόνο, όσο αφορά τις επιχειρήσεις, μέσω γρήγορης και αξιόπιστης τεχνολογίας cloud.</li>
+<li>Να παρέχουμε ευκολία στην αναζήτηση βιβλίων στην τοπική αγορά, για τον καταναλωτή.</li>
+</ul>
+<p>Αναλυτικά οι παρεχόμενες υπηρεσίες θα βρίσκονται στις αντίστοιχες σελίδες.</p>
+<hr>
+<h3>Τι δεν είναι το Bookville.gr <a name="what-is-not"></a></h3>
+<p>Το <a href="http://Bookville.gr">Bookville.gr</a> δεν είναι σε καμία περίπτωση ένα ακόμα eshop.</p>
+<p>Δεν υπάρχει καν σκέψη για ενσωμάτωση πωλήσεων.</p>
+<p>Αν μιλήσετε με κάποιον που αγόρασε κάτι μέσω του site μας, παρακαλώ να επικοινωνίσετε αμέσως μαζί μας στα επίσημα κανάλια επικοινωνίας, όπως αναγράφονται στη σχετική σελίδα.</p>
+<hr>
+<h3>Για τον Καταστηματάρχη <a name="for-the-owner"></a></h3>
+<p><em><strong>Τι θα πρέπει να περιμένει ο καταστηματάρχης;</strong></em></p>
+<p><em><strong>Έυκολη και γρήγορη διαχείριση αποθέματος</strong></em></p>
+<p>Το <a href="http://Bookville.gr">Bookville.gr</a> θα διαθέτει καινοτόμο σύστημα διαχείρισης αποθέματος βιβλίων</p>
+<p>Πιο αναλυτικά</p>
+<ul>
+<li>Δυνατότητα scanαρίσματος ISBN για υποβολή στοιχείων χωρίς ειδικό εξοπλισμό όπως barcode scanner, αλλά με τη χρήση της κάμερας του κινητού του εγγεγραμμένου χρήστη</li>
+<li>Αυτόματη υποβολή στοιχείων βιβλίου μόνο με το σκανάρισμα του ISBN</li>
+<li>Χρήση πολλαπλασιαστή για κατωχύρωση ενός βιβλίου όσες φορές χρειαστεί</li>
+<li>Υποβολή αρχείου .xslx ή .csv με λίστα ISBN προς υποβολή</li>
+<li>Καταχώρηση πώλησης με το scanάρισμα (κινητό) του ήδη κατωχυρωμένου ISBN με τη χρήση της κάμερας του κινητού του εγγεγραμμένου χρήστη</li>
+<li>Real time διαχείριση αποθέματος βιβλίων</li>
+<li>Δυνατότητα δημοσιοποίησης ολόκληρου του καταλόγου</li>
+</ul>
+<p><em><strong>Προβολή σε διαδραστικό χάρτη</strong></em></p>
+<p>Για ποιο λόγο να θέλετε να μοιράζεστε το απόθεμα των βιβλίων σας;</p>
+<p>Για να ενημερώνετε δυνητικούς πελάτες φυσικά.</p>
+<p>Βασική λειτουργία του <a href="http://Bookville.gr">Bookville.gr</a> θα αποτελεί η ενσωμάτωση του καταστήματος σε διαδραστικό χάρτη, ώστε ο καταναλωτής να ξέρει real time το απόθεμα του κάθε καταστήματος.</p>
+<p>Έτσι ευελπιστούμε να μεγαλώσουμε την αναγνωρισιμότητα του καταστήματος, αξιοποιόντας τεχνολογίες αιχμής.</p>
+<p><em><strong>ERP</strong></em></p>
+<p>Το <a href="http://Bookville.gr">Bookville.gr</a> υπόσχετε να φέρει σύγχρονες ERP υπηρεσίες στον κλάδο του βιβλίου, σε πολύ προσιτές τιμές.</p>
+<p><em><strong>Τι είναι το ERP;</strong></em></p>
+<p>ERP, Enterprise Resource Planning, Λογισμικό Μηχανογράφησης. Τρεις όροι για το ίδιο πράγμα.</p>
+<p>Συνοπτικά, είναι ένα σύστημα λογισμικού, το οποίο είναι επιφορτισμένο με το να διαχειρίζεται όλες τις λειτουργίες της επιχείρησης. Αυτό επιτυγχάνεται με την ορθολογικότερη οργάνωση και αξιοποίηση δεδομένων και πόρων της επιχείρησης.</p>
+<p>Βασικά χαρακτηριστικά μιας σουίτας ERP λογισμικού είναι τα εξής (σύμφωνα με τη wikipedia).</p>
+<ul>
+<li>Ένα ολοκληρωμένο σύστημα που λειτουργεί σε πραγματικό χρόνο (ή κοντά σε πραγματικό χρόνο), δίχως να βασίζεται σε περιοδικές ενημερώσεις.</li>
+<li>Μια κοινή βάση δεδομένων που υποστηρίζει όλες τις εφαρμογές.</li>
+<li>Μια συνεπής εμφάνιση και αίσθηση σε κάθε ενότητα.</li>
+<li>Εύκολη, χωρίς απαραίτητη τεχνική υποστήριξη, εγκατάσταση του συστήματος</li>
+</ul>
+<p>Στο <a href="http://Bookville.gr">Bookville.gr</a> εμπνεόμαστε την ανοιχτές πλατφόρμες όπως το Odoo, ένα open source λογισμικό που επιτρέπει μεταξύ άλλων την ενημέρωση αποθέματος, τον οικονομικό έλεγχο και τη διαχείριση πελατολογίου.</p>
+<p>Αναλυτικότερα οι δυνατότητες του Odoo <a href="https://www.odoo.com/page/editions">εδώ</a>.</p>
+<p>Παραδοσιακά, τέτοιες σουίτες λογισμικού ήταν απαγορευτικά ακριβές για τις μικρότερες επιχειρήσεις, ανεξαρτήτως κλάδου.<br>
+Ενδεικτικά, η σουίτα NetSuite της εταιρίας κολοσού Oracle, με όλες τις λειτουργίες ενσωματωμένες, κοστίζει 1000 δολάρια/μήνα (σύμφωνα με το site <a href="https://www.businessnewsdaily.com/oracle-netsuite-review.html">businessnewsdaily.com</a>) μόνο για την άδεια χρήσης, ενώ κάθε συνδεδεμένος χρήστης θα κοστίσει συν 100 δολάρια στην επιχείρηση κάθε μήνα. Φυσικά προσφέρει διάφορα άριστης ποιότητας καλούδια που όμως αφήνουν μια τοπική επιχείρηση παγερά αδιάφορη.<br>
+Σε μια πιο προσιτή λύση, η πλατφόρμα Odoo που ανέφερα προηγουμένως, στην επί πληρωμή hosted έκδοση της, προσφέρει μεμονομένες υπηρεσίες, που σημαίνει πως ο καθένας μπορεί να φτιάξει το πλάνο που τον καλύπτει. Σε ένα παράδειγμα μια εταιρίας με 3 εγγεγραμένους χρήστες και λειτουργίες που προσωπικά θεωρώ απαραίτητες το μηνιαίο κόστος ανέρχεται στα 100 με 140 ευρώ το μήνα. Πολύ πιο διαχειρίσιμο ποσό από του NetSuite, όμως μπορούμε και καλύτερα.</p>
+<p>Σε βάθος χρόνου λοιπόν, θα είμαστε σε θέση να προσφέρουμε τις ακόλουθες υπηρεσίες</p>
+<p>(από το πιο βραχυπρόθεσμο στο πιο μακροπρόθεσμο)</p>
+<ul>
+<li>Λογισμικό για ανάθεση και διαχείριση εργασιών, ημερομηνιών, ραντεβού κτλ βασισμένο στην open source εφαρμογή LeanTime (πλήρης λίστα λειτουργιών <a href="https://leantime.io/features/">εδώ</a>)</li>
+<li>Λογισμικό CRM (Customer Relationship Management) για διαχείριση πελατολογίου</li>
+<li>Σύστημα Διαχείρισης Προσωπικού</li>
+<li>Προβολή στατιστικών για το κατάστημα με βάση τις πωλήσεις και τις αναζητήσεις των υποψήφιων πελατών</li>
+<li>Λογισμικό Καταγραφής Οικονομικών επιχείρησης</li>
+</ul>
+<p>Όλα αυτά και πολλά ακόμα θα παρέχονται από το βασικό κιόλας πλάνο στα βιβλιοπωλεία.</p>
+<p>Και όσο για την υποδομή, δε χρειάζεται να ανησυχείτε, το αναλαμβάνουμε εμείς.</p>
+<p>Όλες οι εφαρμογές θα βρίσκονται και θα τρέχουν στο cloud, οπότε δεν υπάρχει η ανάγκη τοπικής εγκατάστασης των εφαρμογών.</p>
+<p><em><strong>Events</strong></em></p>
+<p>Η εφαρμογή θα διαθέτει ειδική κατηγορία Events στην οποία οι εγγεγραμένοι πελάτες θα μπορούν να εκδηλώνουν το ενδιαφέρον τους.</p>
+<p><em><strong>Ενσωματωμένο κανάλι επικοινωνίας B2C</strong></em></p>
+<p>Η επικοινωνία μεταξύ πελατών και επιχειρήσεων, τώρα πιο εύκολη από ποτέ.</p>
+<p>Μιλήστε απευθείας με τους ενδιαφερόμενους πελάτες, κατοχυρώστε τα στοιχεία τους και τα στοιχεία παραγγελίας, αν υπάρχουν, και επεκτύνετε αποτελεσματικά το δίκτυο πελατών σας.</p>
+<p>Φυσικά κάθε συνομιλεία θα καταγράφεται και θα υπάρχει διαθέσιμη στην ενότητα “Τα Chat μου”.</p>
+<p>Σε βάθος χρόνου, θα υπάρχει ενσωμάτωση ψηφιακού βοηθού ώστε η συλλογή στοιχείων να γίνει ακόμα πιο εύκολη για τον καθένα.</p>
+<p><em><strong>Πρόσβαση σε δημόσιο server πελατών</strong></em></p>
+<p>Οι πελάτες που χρησιμοποιούν το <a href="http://Bookville.gr">Bookville.gr</a> θα έχουν πρόσβαση σε ένα οργανωμένο server όπου θα μοιράζονται με τους υπόλοιπους την εμπειρία τους με το site και τα συνεργαζόμενα βιβλιοπωλεία.</p>
+<p>Εκεί ο καταστηματάρχης θα εντοπίζει αξιολογήσεις από πελάτες και θα βλέπει την αφιλτράριστη εικόνα της κοινότητας για αυτόν.</p>
+<p><em><strong>Πρόσβαση σε ιδιωτικό server επικοινωνίας</strong></em></p>
+<p>Ο server θα φιλοξενείται στην πλατφόρμα Discord.</p>
+<p>Στόχος της συγκεκριμένης κίνησης είναι να προσφέρουμε σύγχρονο customer support σε όλους τους συνεργαζόμενους καταστηματάρχες. Αντιμετωπίζετε κάποιο πρόβλημα με τη εφαρμογή μας; Απευθυνθείτε αμέσως σε εμάς για να το επιλύσουμε.</p>
+<p><em><strong>Και πολλά ακόμα έρχονται…</strong></em></p>
+<p>Έχετε κάποια πρόταση; Μετά χαράς να την ακούσουμε στα επίσημα κανάλια επικοινωνίας μας!</p>
+<hr>
+<h3>Για τον Καταναλωτή <a name="for-the-consumer"></a></h3>
+<p><em><strong>Τι θα μου προσφέρει</strong></em>;</p>
+<p>Αρχικά μιλάμε για μια open source εφαρμογή. Τι είναι open source; Απευθυνθείτε στην ενότητα Business Model.</p>
+<p>Συνεπώς πέρα από τις υπηρεσίες που θα προσφέρουμε εμείς σε εσάς, μπορείτε να συνεισφέρετε και εσείς με τον τρόπο σας.</p>
+<p>Πάμε να δούμε όμως τι λειτουργίες θα υπάρχουν από την πρώτη κιόλας στιγμή για όλους τους πελάτες.</p>
+<p><em><strong>Αναζήτηση βιβλίου στην περιοχή μου</strong></em></p>
+<p>Βασική λειτουργία της εφαρμογής είναι να προσφέρει γρήγορη αναζήτηση ένός βιβλίου στην ευρύτερη περιοχή σας. Μπορείτε να θέσετε αν θέλετε χιλιομετρική ακτίνα από την περιοχή σας ή να χρησιμοποιήσετε την τοποθεσία σας για real time ενημέρωση του χάρτη. Ή και τα δύο συνδιαστικά.</p>
+<p><em><strong>Αναζήτηση καταλόγου συγκεκριμένου βιβλιοπωλείου</strong></em></p>
+<p>Αν είστε πελάτης ενός συγκεριμένου καταστήματος, μπορείτε να ψάξετε τον κατάλογο του. Ο κατάλογος αυτός θα ενημερώνεται απευθείας από το σύστημα αποθήκης του καταστήματος.</p>
+<p><em><strong>Με μια δωρεάν εγγραφή θα μπορείτε να αξιοποιήσετε τις εξής λειτουργίες</strong></em></p>
+<p><em><strong>Δημιουργία Wishlist</strong></em></p>
+<p>Θέλετε να έρθει ένα βιβλίο στην περιοχή σας; Μπορείτε να το καταχωρήσετε στο προσωπικό σας wishlist και έτσι οι καταστηματάρχες μπορεί να κάνουν την επιθυμία σας πραγματικότητα.</p>
+<p><em><strong>Blog</strong></em></p>
+<p>Θέλετε να μοιραστείτε τις απόψεις σας για τον κόσμο του βιβλίου; Τώρα μπορείτε να τις αναρτήσετε δημόσια και να εισπράξετε feedback από αυτές. Το <a href="http://Bookville.gr">Bookville.gr</a> προωθεί τον υγειή διάλογο. Θα υπάρχει αυστηρό moderation ώστε να το επιτύχουμε αυτό.</p>
+<p><em><strong>Πρόσκληση στον Discord Server</strong></em></p>
+<p>Με την εγγραφή σας στο site θα πάρετε ένα link για τη συμμετοχή σας στον επίσημο Discord Server της κοινότητας του Bookville. Εκεί θα μπορείτε να εκφράζεστε ελεύθερα για την εμπειρία σας με το site, αλλά και με τα βιβλιοπωλεία που επισκευθήκατε.</p>
+<p>Εκεί επίσης θα διοργανώνονται διάφορα events κοινότητας και διαγωνισμοί με τη συμβολή των καταστημάτων.</p>
+<p>Το <a href="http://Bookville.gr">Bookville.gr</a> προωθεί τον υγειή διάλογο. Θα υπάρχει αυστηρό moderation ώστε να το επιτύχουμε αυτό.</p>
+<p><em><strong>Τέλος θα υπάρχει και η επιλογή του pro χρήστη</strong></em></p>
+<p>Με μόλις 5€ το μήνα θα πάρετε τα εξής.</p>
+<p><em><strong>Προβολή πανελλήνιου χάρτη βιβλιοπωλείων</strong></em></p>
+<p>Αναρωτηθήκατε ποτέ τι βιβλία πουλάνε στο Σουφλί; Ή στη Μονεμβασιά;</p>
+<p>Τώρα μπορείτε να μάθαιτε.</p>
+<p><em><strong>Ειδικό badge στην κοινότητα του Discord</strong></em></p>
+<p>Ένα απλό status για να ξέρουμε ποιοι στηρίζουν έμπρακτα το εγχείρημα μας.</p>
+<p>Όπως καταλαβαίνετε, ο pro χρήστης δεν έχει αισθητά περισσότερα πλεονεκτήματα από τον απλό χρήστη. Έχει όμως το χαρατήρα της οικονομικής ενίσχυσης της προσπάθειας μας. Αν κάποιος/α το επιλέξει αυτό λοιπόν θα εκτιμηθεί πολύ.</p>
+<p><em><strong>Και πολλά ακόμα έρχονται…</strong></em></p>
+<p>Έχετε κάποια πρόταση; Μετά χαράς να την ακούσουμε στα επίσημα κανάλια επικοινωνίας μας!</p>
+<hr>
+<h3>Κέντρο βοήθειας <a name="getting-help"></a></h3>
+<p>Εδώ θα βρείτε άρθρα με απαντήσεις στις ερωτήσεις που δεχόμαστε.<br>
+Μελλοντικά, θα μεταφερθεί στην δικιά του ενότητα για πιο εύκολη πρόσβαση από τον καθένα.</p>
+<hr>
+<h1>Τεχνικά</h1>
+<h3>Version Control <a name="git"></a></h3>
+<p><em><strong>Ζητούμενα</strong></em><br>
+Έχουμε αισίως 2022. Δε νοείται άνθρωπος που θέλει να γράψει κώδικα σε οποιοδήποτε κλάδο να μην ξέρει τα βασικά του git.<br>
+Είναι 15' υπόθεση, σε περίπτωση που το φοβάστε.<br>
+Αν κάτι κρατήσετε από όλο το project, σας θερμοπαρακαλώ ας είναι αυτό. Θα σας κάνει τη ζωή πολύ πιο εύκολη, σας το υπόσχομαι.</p>
+<p><em><strong>Resources</strong></em></p>
+<ul>
+<li><a href="https://www.freecodecamp.org/news/the-essential-git-handbook-a1cf77ed11b5/">Git Handbook</a></li>
+<li><a href="https://www.theodinproject.com/lessons/foundations-introduction-to-git">Introduction to Git - The Odin Project</a></li>
+<li><a href="https://www.theodinproject.com/lessons/foundations-git-basics">Git Basics - The Odin Project</a></li>
+<li><a href="https://www.youtube.com/watch?v=Uszj_k0DGsg">Git for Professionals</a></li>
+</ul>
+<h3>Markdown <a name="markdown"></a></h3>
+<p><em><strong>Ζητούμενα</strong></em><br>
+Όλα τα κείμενα, από τα reports/καταγραφές των αλλαγών στον κώδικα ως τα κείμενα αυτού εδώ του site θα γράφονται με το συντακτικό της markdown.<br>
+Πολύ απλή γλώσσα στην εκμάθηση και πολύ βολική, ειδικά για τους προγραμματιστές.</p>
+<p><em><strong>Resources</strong></em></p>
+<ul>
+<li><a href="https://www.markdownguide.org/basic-syntax/">Basic syntax</a></li>
+<li><a href="https://www.markdownguide.org/extended-syntax/">Extended syntax</a>-</li>
+<li><a href="https://www.markdownguide.org/hacks/">Hacks</a></li>
+</ul>
+<h3>Protocols <a name="protocols"></a></h3>
+<p><em><strong>Ζητούμενα</strong></em><br>
+Θα χρησιμοποιηθούν οι μέθοδοι GET/POST/PUT/DELETE του προτοκόλου HTTP για την υλοποίηση του REST API.<br>
+Επίσης θα χρησιμοποιηθεί το προτόκολο Websockets για την υλοποίηση του εσωτερικού chat application μεταξύ πελατών και επιχειρήσεων.</p>
+<p><em><strong>Resources</strong></em></p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP">Πληροφορίες για το HTTP protocol</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API">Πληροφορίες για το Websockets protocol</a></li>
+</ul>
+<h2><em><strong>Υλοποίηση</strong></em></h2>
+<h3>UI/UX <a name="uiux"></a></h3>
+<p><em><strong>Ζητούμενα</strong></em><br>
+Να δημιουργηθεί ένα εύχρηστο, προσβάσιμο και ελκιστικό προϊόν, τόσο για τον επαγγελματία, όσο και για τον καταναλωτή.<br>
+Θα χρειαστούν wireframes, mockups και επικοινωνία με τους frontend developers για ενσωμάτωση σε επίπεδο κώδικα.</p>
+<p><em><strong>Resources</strong></em></p>
+<ul>
+<li><a href="https://developgreece.com/ux-ui-design-diafores/">Τι είναι το UI/UX</a></li>
+<li><a href="https://careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-design-a-laymans-guide/">Διαφορές UI και UX</a></li>
+<li><a href="https://www.youtube.com/watch?v=O6IOTj0QLyw">Θέλω αν γίνω Web Designer - Portrait of a Geek</a></li>
+<li><a href="https://www.youtube.com/watch?v=v-Cb2jBR5HE">Οι περιπέτειες του Πασχάλη στη χώρα του UI/UX - Portrait of a Geek</a></li>
+<li><a href="https://www.youtube.com/watch?v=c9Wg6Cb_YlU">UI / UX Design Tutorial – Wireframe, Mockup &amp; Design in Figma - freecodecamp</a></li>
+<li><a href="https://www.youtube.com/watch?v=jwCmIBJ8Jtc">Figma Tutorial for UI Design - Course for Beginners - freecodecamp</a></li>
+<li><a href="https://www.freecodecamp.org/news/lessons-learned-from-reading-10-ui-ux-design-systems/">Lessons learned from Reading 10 UI/UX design systems - freecodecamp</a></li>
+<li><a href="https://www.youtube.com/watch?v=ykn4XNDwW7Q">Web design tips for developers - Kevin Powell</a></li>
+<li><a href="https://www.accessibilitychecker.org/">Accessibility Checker</a></li>
+<li><a href="https://github.com/togiberlin/ui-ux-designer-roadmap">Designer Roadmap</a></li>
+</ul>
+<p><em><strong>Υλοποίηση</strong></em></p>
+<hr>
+<h3>Frontend Development <a name="frontend"></a></h3>
+<p><em><strong>Ζητούμενα</strong></em></p>
+<p>Θα χρησιμοποιηθεί το React Framework για την υλοποίηση του Frontend κομματιού του project.<br>
+Σημαντικό ο κώδικας να είναι τόσο εύκολος στη συντήριση από πολλούς και διαφορετικού επιπέδου συνεργάτες, όσο και scalable με το βλέμα στο μέλλον.<br>
+<strong>Απαραίτητα και υποχρεωτικά</strong> τα σχόλια στον κώδικα.<br>
+Ανάληψη από έναν υπεύθυνο χαρτογράφισης της εφαρμογής. Είναι σημαντικό να υπάρχει καταγραφή της κάθε μετατροπής/ προσθήκης στον κώδικα ώστε να παραμείνει διαχειρίσιμη η συντήρισή του.</p>
+<p><em><strong>Resources</strong></em></p>
+<ul>
+<li><a href="https://roadmap.sh/frontend">Frontend Development roadmap - roadmap.sh</a></li>
+<li><a href="https://roadmap.sh/react">React roadmap - roadmap.sh</a></li>
+<li><a href="https://reactjs.org/docs/getting-started.html">React official documentation</a></li>
+<li><a href="https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript#react-js">Getting Started With React - The Odin Project</a></li>
+<li><a href="https://www.freecodecamp.org/news/the-react-handbook-b71c27b0a795/">The React Handbook - freecodecamp</a></li>
+<li><a href="https://www.valentinog.com/blog/webpack/">Material UI in React - MUI</a></li>
+<li><a href="https://www.npmjs.com/package/react-qr-scanner">QR code scanner w/ React</a></li>
+<li><a href="https://serratus.github.io/quaggaJS/">Barcode scanner w/ Quagga</a></li>
+<li><a href="https://github.com/zxing-js/library">Barcode scanner w/ ZXing-js</a></li>
+<li><a href="https://react-leaflet.js.org/">React Leaflet (Open Street Maps)</a></li>
+<li><a href="https://github.com/google-map-react/google-map-react">Google Maps w/ React</a></li>
+<li><a href="https://www.freecodecamp.org/news/best-practices-for-react/">React best practices - freecodecamp</a></li>
+<li><a href="https://www.freecodecamp.org/news/how-to-consume-rest-apis-in-react/">How to consume APIs in React - freecodecamp</a></li>
+<li><a href="https://www.freecodecamp.org/news/axios-react-how-to-make-get-post-and-delete-api-requests/">Axios React GET/POST/DELETE - freecodecamp</a></li>
+<li><a href="https://www.youtube.com/watch?v=Ul3y1LXxzdU">React Router V6 - WebDevSimplified</a></li>
+<li><a href="https://www.youtube.com/watch?v=5IG4UmULyoA">Module bundlers explained</a></li>
+<li><a href="https://www.valentinog.com/blog/webpack/">Webpack guide - Valentinog</a></li>
+<li><a href="https://parceljs.org/docs/">Parceljs Docs</a></li>
+<li><a href="https://www.youtube.com/watch?v=KRY_JYBUbUM">Babel guide</a></li>
+<li><a href="https://www.accessibilitychecker.org/">Accessibility Checker</a></li>
+<li><a href="https://www.freecodecamp.org/news/how-to-test-react-applications/">How to test React applications - freecodecamp</a></li>
+</ul>
+<p><em><strong>Υλοποίηση</strong></em></p>
+<hr>
+<h3>Backend Development <a name="back"></a></h3>
+<p><em><strong>Ζητούμενα</strong></em></p>
+<p>Δημιουργία REST API με τις λειτουργίες που περιγράφονται στις ενότητες &quot;Για τον Καταστηματάρχη&quot; και &quot;Για τον Καταναλωτή&quot;<br>
+Σημαντικό ο κώδικας να είναι τόσο εύκολος στη συντήριση από πολλούς και διαφορετικού επιπέδου συνεργάτες, όσο και scalable με το βλέμα στο μέλλον.<br>
+<strong>Απαραίτητα και υποχρεωτικά</strong> τα σχόλια στον κώδικα.<br>
+Ανάληψη από έναν υπεύθυνο χαρτογράφισης της εφαρμογής. Είναι σημαντικό να υπάρχει καταγραφή της κάθε μετατροπής/ προσθήκης στον κώδικα ώστε να παραμείνει διαχειρίσιμη η συντήρισή του.</p>
+<p><em><strong>Resources</strong></em></p>
+<ul>
+<li>Django
+<ul>
+<li><a href="https://docs.djangoproject.com/en/4.1/">Official Documentation</a></li>
+<li><a href="https://realpython.com/search?q=django">Real Python articles</a></li>
+<li><a href="https://www.youtube.com/watch?v=UmljXZIypDc&amp;list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p&amp;index=1">Corey Schafer on YT - Django Series</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLOLrQ9Pn6cazTA2QyG2R2UT7MQCAOK3W4">Very Academy on YT - Learn Django Series</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL-51WBLyFTg1pUMaTJ4WSgnyvWfLGmwDm">Dennis Ivy on YT - Django 2021 Crash Course</a></li>
+<li><a href="https://www.youtube.com/watch?v=fOukA4Qh9QA">JustDjango on YT - Getting started with Django tutorial</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLgjw1dR712jr9OIvqyKntapFHndc0SwsP">Pyplane on YT - Practical Django</a></li>
+</ul>
+</li>
+<li>Django REST Framework
+<ul>
+<li><a href="https://www.django-rest-framework.org/">Official Documentation</a></li>
+<li><a href="https://www.cdrf.co/">Classy DRF</a></li>
+<li><a href="https://www.youtube.com/watch?v=TmsD8QExZ84">DRF Serializers and CRUD</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL-51WBLyFTg1gPEHotYAhNAPsisChkyTc">Token Authentication</a></li>
+<li><a href="https://www.youtube.com/watch?v=7AkTv4Sl9S4">Simple API</a></li>
+</ul>
+</li>
+<li>Django ORM
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLOLrQ9Pn6cayYycbeBdxHUFrzTqrNE7Pe">Very Academy on YT - ORM Mastery Course 4.X</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLOLrQ9Pn6cazjoDEnwzcdWWf4SNS0QZml">Very Academy on YT - ORM Mastery Course</a></li>
+</ul>
+</li>
+<li>Django Packages
+<ul>
+<li>Dj-rest-auth
+<ul>
+<li><a href="https://dj-rest-auth.readthedocs.io/en/latest/">readthedocs</a></li>
+<li><a href="https://www.youtube.com/watch?v=KYPRfmQnhn8">JustDjango on YT - DJ-rest-auth</a></li>
+</ul>
+</li>
+<li>Django-allauth
+<ul>
+<li><a href="https://django-allauth.readthedocs.io/en/latest/">readthedocs</a></li>
+</ul>
+</li>
+<li>Simple-JWT
+<ul>
+<li><a href="https://django-rest-framework-simplejwt.readthedocs.io/en/latest/">readthedocs</a></li>
+</ul>
+</li>
+<li>Django admin honeypot
+<ul>
+<li><a href="https://pypi.org/project/django-admin-honeypot-updated-2021/">pypi</a></li>
+</ul>
+</li>
+<li>Django phonenumber field
+<ul>
+<li><a href="https://pypi.org/project/django-phonenumber-field/">pypi</a></li>
+</ul>
+</li>
+<li>Django Guardian
+<ul>
+<li><a href="https://django-guardian.readthedocs.io/en/stable/">readthedocs</a></li>
+</ul>
+</li>
+<li>Django Comments xtd
+<ul>
+<li><a href="https://django-comments-xtd.readthedocs.io/en/latest/index.html">readthedocs</a></li>
+</ul>
+</li>
+<li>Django REST Pandas
+<ul>
+<li><a href="https://github.com/wq/django-rest-pandas">github</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><em><strong>Υλοποίηση</strong></em></p>
+<hr>
+<h3>Full Stack Development <a name="full"></a></h3>
+<p><em><strong>Ζητούμενα</strong></em><br>
+Διασύνδεση του React app με τον Django API με καθαρό, αποδοτικό και συντηρήσιμο τρόπο.</p>
+<p><em><strong>Resources</strong></em></p>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PL2t6cW2FkFCg9Ky0CphSSr0pJwHNb1pny">DRF with React and Redux</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLLRM7ROnmA9FxCtnLoIHAs6hIkJyd1dEx">Django and React Project (For Reference Only)</a></li>
+</ul>
+<p><em><strong>Υλοποίηση</strong></em></p>
+<hr>
+<h3>Database Optimization <a name="db"></a></h3>
+<p><em><strong>Ζητούμενα</strong></em><br>
+Οι κλήσεις προς τη βάση δεδομένων είναι η καρδιά κάθε σύγχρονης εφαρμογής διαδικτύου. Εύκολα καταλαβαίνουμε λοιπόν πως η εμπειρία του χρήστη και η απόδοση της βάσης δεδομένων πάνε χέρι χέρι.<br>
+Θα προσπαθίσουμε λοιπόν να κάνουμε όσο πιο αποδοτικές τις κλήσεις αυτές.</p>
+<p><em><strong>Resources</strong></em></p>
+<ul>
+<li><a href="https://www.postgresql.org/docs/">PostgreSQL Documentation</a></li>
+<li><a href="https://docs.djangoproject.com/en/4.1/topics/db/optimization/">Database access optimization - Django Docomentation</a></li>
+</ul>
+<p><em><strong>Υλοποίηση</strong></em></p>
+<hr>
+<h3>Deployment <a name="deployment"></a></h3>
+<p><em><strong>Ζητούμενα</strong></em></p>
+<p>Σε πρώτη φάση, απαραίτητη είναι η επιλογή του τύπου του deployment.<br>
+Παρατήθονται όλες οι διαθέσιμες επιλογές.<br>
+Εκτός απροόπτου, θα χρησιμοποιηθούν containers, τόσο διότι είναι μια τεχνολογία που καλό είναι να γνωρίζει ο καθένας που εισέρχεται στο χώρο, όσο επίσης και για τις δυνατότητες που δίνει σε επίπεδο scalability.</p>
+<p><em><strong>Resources</strong></em></p>
+<ul>
+<li>Option 1 | PaaS (Platform as a Service)
+<ul>
+<li><a href="https://caprover.com/docs/get-started.html">Caprover documentation</a></li>
+<li><a href="https://www.youtube.com/watch?v=pIF5B-D8jD4">Caprover guide</a></li>
+</ul>
+</li>
+<li>Option 2 | Containers
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLOLrQ9Pn6cazCfL7v4CdaykNoWMQymM_C">Docker Mastery - Very Academy</a></li>
+<li><a href="https://www.freecodecamp.org/news/the-docker-handbook/">The Docker Handbook - freecodecamp</a></li>
+<li><a href="https://docs.portainer.io/">Portainer Documentation</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLy7NrYWoggjzfAHlUusx2wuDwfCrmJYcs">Docker Series - Tech with Nana</a></li>
+<li><a href="https://www.youtube.com/watch?v=jAWLQFi4USk">Azure Container Instances</a></li>
+<li><a href="https://www.youtube.com/watch?v=AYAh6YDXuho">AWS ECR</a></li>
+</ul>
+</li>
+<li>Option 3 | Container Orchestration<br>
+<em><strong>in the case microservices are used</strong></em>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=rv4LlmLmVWk">Microservices explained</a></li>
+<li><a href="https://www.youtube.com/watch?v=0iB5IPoTDts">Python microservices</a><br>
+<em><strong>end of microservices</strong></em></li>
+<li><a href="https://www.youtube.com/watch?v=NAOsLaB6Lfc">CodingEnterprenuers on YT - Deploy Django w/ Kubernetes and Docker</a></li>
+<li><a href="https://www.youtube.com/watch?v=4CHIePB9cOI">Docker on YT - Containerized Deployments</a></li>
+<li><a href="https://www.youtube.com/watch?v=s_o8dwzRlu4">TechWorld with Nana on YT - Kubernetes Crash Course for beginners</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC">Microsoft Azure on YT - Tips and Tricks</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLTnRtjQN5ieYD97JCZtcGbIjq1EINih2G">Linode on YT - Kubernetes with Helm</a></li>
+<li><a href="https://helm.sh/docs/">Helm docs</a></li>
+<li><a href="https://www.youtube.com/watch?v=-ykwb1d0DXU">TechWorld with Nana - What is Helm?</a></li>
+<li><a href="https://www.redhat.com/cms/managed-files/cm-oreilly-kubernetes-patterns-ebook-f19824-201910-en.pdf">Kubernetes book</a></li>
+<li><a href="https://www.freecodecamp.org/news/the-kubernetes-handbook/">Kubernetes Handbook</a></li>
+<li><a href="https://docs.nginx.com/">NGINX documentation</a></li>
+</ul>
+</li>
+</ul>
+<p><em><strong>Υλοποίηση</strong></em></p>
+<hr>
+<h3>Object Storage <a name="object"></a></h3>
+<p><em><strong>Ζητούμενα</strong></em><br>
+Η χρήση object storage είναι ο πλέον διαδεδομένος και αποδοτικός τρόπος να υπάρχουν τα στατικά αρχεία σε ένα server.<br>
+Βασικό είναι να κατανοήσουμε σε βάθος πως λειτουργεί το object storage.</p>
+<p><em><strong>Resources</strong></em></p>
+<ul>
+<li><a href="https://cloud.google.com/learn/what-is-object-storage">Google object storage</a></li>
+<li><a href="https://aws.amazon.com/what-is-cloud-object-storage/">Amazon object storage</a></li>
+</ul>
+<p><em><strong>Υλοποίηση</strong></em></p>
+<hr>
+<h3>CI /CD/ Automation /Testing <a name="ci"></a></h3>
+<p><em><strong>Ζητούμενα</strong></em></p>
+<p><em><strong>Resources</strong></em></p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=R8_veQiYBjI">Github Actions </a></li>
+<li><a href="https://www.youtube.com/watch?v=7KCS70sCoK0">Complete Jenking Pipeline Tutorial</a></li>
+<li><a href="https://riptutorial.com/Download/jenkins.pdf">Jenkind ebook</a></li>
+<li><a href="https://www.jenkins.io/doc/book/">Jenkins Documentation</a></li>
+<li><a href="https://www.ansible.com/resources/ebooks">Ansible ebook</a></li>
+<li><a href="https://www.youtube.com/watch?v=DRQJHOOstY0">ELK Stack talk</a></li>
+<li><a href="https://www.youtube.com/watch?v=WDy4-m4V76Q">Circle CI with AWS</a></li>
+</ul>
+<p><em><strong>Υλοποίηση</strong></em></p>
+<hr>
+<h3>Performance Monitoring <a name="performance"></a></h3>
+<p><em><strong>Ζητούμενα</strong></em></p>
+<p><em><strong>Υλοποίηση</strong></em></p>
+<hr>
+<h3>App Analytics <a name="analytics"></a></h3>
+<p><em><strong>Ζητούμενα</strong></em></p>
+<p><em><strong>Υλοποίηση</strong></em></p>
+<hr>
+<h3>Server Monitoring <a name="monitoring"></a></h3>
+<p><em><strong>Ζητούμενα</strong></em></p>
+<p><em><strong>Υλοποίηση</strong></em></p>
+<hr>
+<h3>Server Backup /Restore <a name="backup"></a></h3>
+<p><em><strong>Ζητούμενα</strong></em></p>
+<p><em><strong>Υλοποίηση</strong></em></p>
+<hr>
+<h3>App Security <a name="security"></a></h3>
+<p><em><strong>Ζητούμενα</strong></em></p>
+<p><em><strong>Resources</strong></em></p>
+<ul>
+<li><a href="https://www.codementor.io/@zellliew/understanding-csrf-attacks-1ttyipn1xu">Understanding CSRF attacks</a></li>
+</ul>
+<p><em><strong>Υλοποίηση</strong></em></p>
+<hr>
+<h1>Διοικητικά</h1>
+<h3>Business Model <a name="model"></a></h3>
+<p><em><strong>Open Source Software</strong></em><br>
+Σύμφωνα με το <a href="https://ellak.gr">ellak.gr</a>, το ΕΛ/ΛΑΚ (Ελεύθερο Λογισμικό / Λογισμικό Ανοιχτού Κώδικα) είναι το εξής:</p>
+<blockquote>
+<p>Ως σύνολο περιγράφει λογισμικό το οποίο διατίθεται με ειδικές άδειες, οι
+οποίες επιτρέπουν στους χρήστες να μελετήσουν, να τροποποιήσουν και να
+βελτιώσουν το λογισμικό. Ο τεχνικός τρόπος με τον οποίο επιτυγχάνεται
+αυτό είναι η διαθεσιμότητα του πηγαίου κώδικα από αποθετήρια( source code repositories). Οι αντίστοιχοι αγγλικοί όροι είναι Free Software και Open Source
+Software ενώ η ομαδοποίηση αναφέρεται συνήθως ως FOSS (Free and Open
+Source Software) ή FLOSS (Free/Libre/Open Source software).</p>
+</blockquote>
+<p>Το ΕΛ/ΛΑΚ ή αλλιώς open source software επιτρέπει στον επαγγελματία, τον πελάτη, στον developer αλλά  και στον καθημερινό άνθρωπο την επίβλεψη ενός έργου.</p>
+<p>Για ένα πλήρη οδηγό για τον open source τρόπο σκέψης πατήστε το <a href="https://opensource.ellak.gr/2022/08/18/ti-ine-to-elefthero-logismiko">link</a>.</p>
+<p>Ένα έργο μπορεί να είναι είτε εξ ολοκλήρου, είτε τμηματικά, είτε και καθόλου open source.</p>
+<p>Κλειστό ή proprietary λογισμικό είναι αυτό που χρησιμοποιείτε από τον χρήστη ως μαύρο κουτί, ως κάτι δηλαδή που απλώς δουλεύει, καλύπτεται από αυστηρούς όρους εγγύησης και αν χαλάσει απαιτείται τις περισσότερες φορές εξουσιοδοτιμένο service.</p>
+<p>Εδώ στο bookville.gr δεν το κάνουμε αυτό.</p>
+<p>Οι βασικοί λόγοι είναι οι εξής.</p>
+<ul>
+<li>Σεβόμαστε το χρήστη και θέλουμε να κερδίσουμε την εμπιστοσύνη του μέσα από πλήρη διαφάνεια της διαδικασίας του development. Όλες οι αλλαγές είναι διαθέσιμες για όλους να τις δουν. Επενδύουμε σε αρχές της κοινότητας, όπως η συνεργατικότητα και η αυτονομία.</li>
+<li>Η εφαρμογή είναι χτισμένη με από την πρώτη γραμμή κώδικα με τεχνολογίες open source. Όποια γνώση χρειαστήκαμε, την αποκτήσαμε μέσω internet και ανοιχτών πηγών, ενώ χρησιμοποιήσαμε και αυτούσιο ανοιχτό κώδικα. Θεωρούμε χρέος μας να συνεχίσουμε αυτό που παραλλάβαμε.</li>
+<li>Δεν έχουμε σκοπό να αξιοποιήσουμε τα δεδομένα σας πουλώντας τα σε τρίτες εταιρίες. Αυτή η τακτική αξιοποιείτε κατά κόρον στα λογισμικά κλειστού κώδικα. Για περισσότερες πληροφορίες σχετικά με την προστασία των δεδομένων σας απευθυνθείτε στο παρακάτω <a href="https://foundation.mozilla.org/en/blog/what-you-should-know-this-data-privacy-day">link</a></li>
+<li>Επιθυμούμε και επιδιώκουμε την ενσωμάτωση στην κοινότητα. Μέσα από το Instagram, αλλά και μέσα από το ίδιο το site, μέσω του blog και της σελίδας των events. Τι πιο ταιριαστό από το να έχει λόγο η ίδια κοινότητα για αλλαγές στο project;</li>
+<li>Δεν θέλουμε να εξαρτώμαστε από πουθενά. Το project είναι ένας ζωντανός οργανισμός που θα ζει και θα ανπτύσεται μέσα από την κοινότητα. Επομένως το θεωρώ πολύ ταιριαστό η χρηματοδότηση μας να είναι απευθείας από αυτή. Να θυμάστε, όταν δεν πληρώνετε για ένα προιόν, τότε κάποιος άλλος πληρώνει για αυτό και ενδεχομένως να έχει αντίθετα συμφέροντα με εσάς. Για να δείτε την ανάλυση της χρηματοδότησης δείτε παρακάτω στην ενότητα Monetization.</li>
+</ul>
+<p>Αυτοί είναι μερικοί από τους λόγους που κάναμε αυτή την επιλογή. Αν συμφωνείτε με εμάς και θέλετε να συνισφέρετε με τον τρόπο σας, όποιος και αν είναι αυτός, επισκευτείτε τη σελίδα contribute.</p>
+<hr>
+<h3>Monetization <a name="monetization"></a></h3>
+<p><em><strong>Σημαντικό</strong></em><br>
+Τα συνδρομητικά προγράμματα αφορούν την τελική έκδοση της εφαρμογής.
+Μέχρι τότε, η εφαρμογή θα είναι δωρεάν στη χρήση με περιορισμένες προφανώς λειτουργίες, μιας και είμαστε στη φάση της ανάπτυξης. Οι τιμές που αναγράφονται δύναται να αλλάξουν, και το πιο πιθανό είναι να το κάνουν, μόλις ξεκαθαρίσουν περισσότερο τα οικονομικά δεδομένα του project. Θα υπάρξει σχετική ανακοίνωση στην κατηγορία devlog.</p>
+<p>Κάθε πρόσθετη λειτουργία θα μπαίνει αρχικά σε μια δωρεάν περίοδο beta testing με σκοπό να αξιολογηθεί στην πράξη από τον χρήστη και φυσικά να διορθωθούν τυχών προβλήματα σε επίπεδο design ή και κώδικα. Ύστερα, αφού το επιτρέψουν τα συλλεγμένα δεδομένα, θα καταχωρείτε στο αντίστοιχο συνδρομητικό πλάνο και θα περιμένει την έκδοση της εφαρμογής.</p>
+<p>Σαν χρονοδιάγραμμα ανάπτυξης θέτουμε το εξής. Πρωταρχικός μας στόχος είναι η πλήρης ανάπτυξη των λειτουργιών του δωρεάν πλάνου. Πάνω σε αυτό θα προσθέτουμε και θα αφαιρούμε περιοδικά λειτουργίες για λόγους testing, όπως αναφέρθηκε. Θα δομήσουμε έτσι σιγά σιγά το βασικό πλάνο και τελικώς το premium πλάνο.</p>
+<p>Η σκέψη πίσω από την περιεκτικότητα των πλάνων σε λειτουργίες έχει προκύπτει από το όραμα που περιγράφουμε με μεγαλύτερη λεπτομέρεια στην ενότητα Αποστολή.
+Όσο και αν προσωπικά θέλω να παραδώσω στο τέλος ένα ποιοτικό προϊόν γρήγορα και δωρεάν, πραγματικά δεν έχω βρει τρόπο να το επιτύχω, και τους λόγους θα τους εξηγήσω αμέσως. Ελπίζω μια μικρή συνδρομή το μήνα να μην αποτρέψει επιχειρήσεις κάθε μεγέθους να ενταχθούν στο πρόγραμμά μας. Πιστεύω πραγματικά στο όραμά μας και θέλω να με ακολουθήσετε σε αυτό.
+Πριν λοιπόν προχωρήσω στην ανάπτυξη της λύσης που θα υιοθετήσουμε εν τέλει, ας αναλύσω τα αντικειμενικά προβλήματα που αντιμετωπίζουμε και που κάνουν την συνύπαρξη των τριών αυτών παραμέτρων (ποιοτικό, γρήγορα και δωρεάν) πρακτικά αδύνατη.<br>
+Για αρχή, δε μπορεί να κρύψει κάνεις την απειρία, σε διοικητικό και τεχνικό τομέα.
+Εγώ, που γράφω αυτό το κείμενο και που είμαι ο εμπνευστής της ιδέας, είμαι φοιτητής σε αρκετά δυσχερή χρονικά θέση, όσο αφορά τις σπουδές μου, ενώ παράλληλα εργάζομαι στον τομέα που θα απασχολούμαι και στο project. Κάνω τα πρώτα μου βήματα στον κλάδο με ένα παράτολμο αλλά συνάμα ελπιδοφόρο όραμα που σκοπό έχει να λύσει υπαρκτά προβλήματα και όχι το κέρδος.
+Αργότερα, υπάρχει το θέμα του χρόνου, που δεν είναι σε καμία περίπτωση σύμμαχος. Σταθερή συνεισφορά θα υπάρχει από άτομα που εργάζονται καθημερινά, ενώ τρέχουν και άλλα πράγματα στη ζωή τους. Επομένως καταλαβαίνει κανείς το βασικό λόγο που διαλέξαμε την open source οδό.<br>
+Τέλος, δεν υπάρχει, και δε θα υπάρξει στο κοντινό μέλλον, σταθερή πηγή χρηματοδότησης. Θα κυνηγήσω προσωπικά κάποια χρηματοδότηση από ιδρύματα πολιτισμού, όμως αυτό προϋποθέτει να λυθούν κάποια νομικά θέματα. Οπότε είτε θα πρέπει να χρηματοδοτώ το project από την τρύπια τσέπη μου, είτε θα πρέπει να ζητήσω τα ελάχιστα από μια μεγαλύτερη μερίδα ανθρώπων, κατά προτίμηση επαγγελματιών και όχι καταναλωτών.<br>
+Κόντρα στα αντικειμενικά αυτά προβλήματα έχουμε να επιδείξουμε την όρεξη μας να δημιουργήσουμε κάτι που θα μείνει.<br>
+Ας περάσουμε τώρα στην ανάπτυξη του οικονομικού μοντέλου.</p>
+<p>Μιλήσαμε νωρίτερα για τα ΕΛ/ΛΑΚ. Η κύρια διαφοροποίηση του Free Open Source Software από το Open Source Software είναι η πηγές χρηματοδότησης.</p>
+<p>Το open source <strong>δεν</strong> είναι απαραίτητα δωρεάν.</p>
+<p>Ακολουθεί αναλυτικός πίνακας με τις επιλογές χρηματοδότησης, τόσο για τους πελάτες, όσο και για τις επιχειρήσεις.</p>
+<p><em><strong>Σημείωση 1:</strong></em></p>
+<p>Η εγγραφή επιχειρηματία στο σύστημα συμπεριλαμβάνει κόστος εγγραφής 20€ . Αυτό γίνεται για να μπορούμε να πιστοποιήσουμε πως πρόκειται για πραγματικό πωλητή.</p>
+<p><em><strong>Σημείωση 2:</strong></em></p>
+<p>Για αναλυτική περιγραφή των παροχών απευθυνθείτε στην ενότητα &quot;Για τον καταστηματάρχη&quot;</p>
+<p><em><strong>Σημείωση 3:</strong></em></p>
+<p>Υπάρχει και η δυνατότητα εφάπαξ δωρεάς. Επισκευθείτε τη σελίδα Contribute.</p>
+<h3>Για τον επιχειρηματία</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Πλάνο</th>
+<th style="text-align:center">Κόστος / μήνα</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Δωρεάν</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">Βασικό</td>
+<td style="text-align:center">10€</td>
+</tr>
+<tr>
+<td style="text-align:center">Premium</td>
+<td style="text-align:center">20€</td>
+</tr>
+</tbody>
+</table>
+<p><em><strong>Δωρεάν Πλάνο</strong></em>: Φτιαγμένο για αυτούς που θέλουν να δοκιμάσουν την εφαρμογή.</p>
+<p>Υποστηρίζει τις εξής λειτουργίες</p>
+<p><em><strong>Βασικό πλάνο</strong></em>: Φτιαγμένο για αυτούς που θέλουν να εκσυγχρωνίσουν την επιχείρησή τους. Επεκτείνει το Δωρεάν πλάνο.</p>
+<p>Υποστηρίζει τις εξής λειτουργίες</p>
+<p><em><strong>Premium πλάνο</strong></em>: Φτιαγμένο για αυτούς που θέλουν να εξελίξουν την επιχείρησή τους. Επεκτείνει το Βασικό πλάνο.</p>
+<p>Υποστηρίζει τις εξής λειτουργίες</p>
+<p>Οι παραπάνω τιμές έχουν καθοριστεί με τη λογική των λίγων από τους πολλούς.
+Όπως βλέπετε και εσείς, οι περισσότερες λειτουργίες βρίσκονται στο βασικό πλάνο, με σκοπό αυτό να αντιπροσωπεύει τον κύριο όγκο συνοικιακών βιβλιοπωλείων. Από εκεί και πέρα, υπάρχει το δωρεάν και το premium πλάνο.
+Το δωρεάν πλάνο έχει ως στόχο τη δοκιμή των βασικών λειτουργιών από τον καταστηματάρχη. Μπορεί υπό περιπτώσεις να γίνει το πλάνο που θα χρησιμοποιήσει ένα συνοικιακό βιβλιοπωλείο, δηλαδή αν η ακτίνα προβολής στο χάρτη 1 χιλιομέτρου είναι ικανοποιητική ή έχει πολύ μικρό απόθεμα βιβλίων, όμως κάτι τέτοιο δε συνιστάται.
+Το premium πλάνο έχει ως στόχο την επέκταση του πελατολογίου εκτός συνόρων δήμου. Είναι ιδανικό δηλαδή για ένα βιβλιοπωλείο που διατηρεί παράλληλα ένα eshop. Κατά τα άλλα, δε διαφέρει και πολύ από το βασικό πλάνο και έχει τον  χαρακτήρα της οικονομικής ενίσχυσης για το project.
+Όποιο πλάνο και να διαλέξετε, ελπίζουμε να μείνετε ικανοποιημένοι από τις υπηρεσίες μας. Η αναβάθμιση της εμπειρίας του βιβλιοπώλη και του πελάτη είναι το μόνο που μας ενδιαφέρει και δε θα σταματήσουμε μέχρι να το πετύχουμε.</p>
+<h3>Για τον Πελάτη</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Πλάνο</th>
+<th style="text-align:center">Κόστος / μήνα</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Δωρεάν (χωρίς εγγραφή)</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">Δωρεάν (με εγγραφή)</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">Supporter</td>
+<td style="text-align:center">5€</td>
+</tr>
+</tbody>
+</table>
+<p><em><strong>Δωρεάν Πλάνα</strong></em>: Φτιαγμένα για τον κάθε χρήστη.</p>
+<p>Υποστηρίζει τις εξής λειτουργίες</p>
+<p><em><strong>Supporter Πλάνο</strong></em>: Το πλάνο υποστήριξης έχει το ρόλο της υποστήριξης του project. Δεν παρέχει αισθητά περισσότερα από το δωρεάν πλάνο.</p>
+<p>Υποστηρίζει τις εξής λειτουργίες</p>
+<hr>
+<p>Κλείνοντας το κομμάτι της χρηματοδότησης, θα κάνουμε μια σύντομη καταγραφή των μηνιαίων εξόδων &quot;τρεξίματος&quot; ενός τέτοιου project με σειρά προτεραιότητας, προφανώς αγνοώντας την οποία κερδοφορία υπάρξει. Μιλώντας για κερδοφορία, στην περίπτωση που κάποιο μήνα υπάρχει, τα χρήματα θα αποταμιεύονται για τον επόμενο, όμως έχουμε πολύ δρόμο μέχρι να υπάρξει κάτι τέτοιο.</p>
+<ul>
+<li>Έξοδα server
+<ul>
+<li>Web hosting</li>
+<li>Τεχνική υποστηριξη</li>
+</ul>
+</li>
+<li>Έξοδα για εξωτερικούς συνεργάτες (λογιστή και δικηγόρο)</li>
+<li>Έξοδα για επέκταση της επιχείρησης.</li>
+<li>Έξοδα για παροχή υλικού εξοπλισμού στους σταθερούς συμμετέχοντες</li>
+</ul>
+<hr>
+<h3>Marketing <a name="marketing"></a></h3>
+<hr>
+<h3>Expansion Strategy <a name="expansion"></a></h3>
+<hr>
+<h3>Νομικά Θέματα <a name="law"></a></h3>
+<hr>
+<h3>Λογιστικά /Οικονομικά Θέματα <a name="finance"></a></h3>
+<hr>
+<h3>Lead Management <a name="leads"></a></h3>
+<hr>
+<h3>Κανονισμοί Κοινότητας <a name="community"></a></h3>
+<hr>
+<h3>Προβλήματα προς Επίλυση <a name="problems"></a></h3>
+<p>Εδώ θα αναγράφονται πιθανά προβλήματα και προβληματισμοί που μπορεί να προκύψουν όσο τρέχει το project.</p>
+<p><em><strong>Δυσφήμιση</strong></em><br>
+Στον ίδιο κόσμο ζούμε, θα έχετε παρατηρήσει πως με κάθε φορά που εμπλέκεται το οικονομικό κάπου θα υπάρχει και μια μουρμούρα για τα κίνητρα πίσω από τις πράξεις. Εμείς κάνουμε κάτι γενναίο. Παίρνουμε ένα τύπο λογισμικού που ήταν αποκλειστικά για επιχειρήσεις με μια σχετική οικονομική επιφάνεια και τον δίνουμε σχεδόν δωρεάν (αν συγκρίνουμε με τις μηνιαίες συνδρομές του εμπορίου) με σκοπό το χάσμα που χωρίζει τα συνοικιακά βιβλιοπωλεία από τα μεγάλα, μερικές φορές ακόμα και πολυκαταστήματα. Υπάρχει όμως και κάτι ακόμα που κάνουμε. Δεν έχουμε σκοπό να ασχοληηθούμε ως ομάδα με την υπόλοιπη αγορά, δεν εμποδίζουμε κανέναν όμως να πάρει τον κώδικά μας και να τον προσαρμώσει στις ανάγκες του δικού του κλάδου. Αυτό είναι εξάλλου το βασικό νόημα του open source, να μπορεί ο καθένας να δημιουργεί ελεύθερα με βάση τις ανάγκες του. Και εδώ πιστεύω θα ξεκινήσουν τα προβλήματα. Αν με το καλό έχει επιτυχία το project, έχουμε δρόμο για αυτό, προβλέπω μια γελία προσπάθεια συκοφάντισης με σκοπό να μη μας εμπειστεύονται οι επαγγελματίες, η κύρια πηγή εσόδων μας δηλαδή. Και σίγουρα δε θα βοηθήσει και πολύ ο μη κερδοσκοπικός χαρακτήρας του εγχειρίματος, μιας και όλοι λίγο πολύ έχουμε ακούσει για τις κακές ΜΚΟ που ξεπλένουν χρήμα και κάνουν τα παιδιά μας κομμουνιστές, μεταξύ άλλων. Εδώ είμαστε, αν υπάρξει κάτι, στο όχι τόσο μακρινό μέλλον, θα το δούμε και θα το αντιμετωπίσουμε.</p>
+<p><em><strong>Κλοπή ιδέας με σκοπό το κέρδος</strong></em><br>
+Δεν είμαι σίγουρος ότι θα πρέπει να με ενδιαφέρει αυτό, αλλά θα το αναφέρω.<br>
+Ένα έμπειρο μάτι μπορεί να διακρίνει αμέσως τις πιθανότητες κερδοφορίας από ένα τέτοιο project. Όπως ανέφερα ήδη, δίνουμε επαγγελματικό λογισμικό σε τιμές κάτω του κόστους επειδή είμαστε ηλίθιοι, για μερικούς, ή επειδή θέλουμε να στηρίξουμε ουσιαστικά τον κλάδο, για δύο-τρεις καλοπροαίρετους.<br>
+Η ανοιχτή φύση του project δεν σταματά κανέναν από το να πάρει και να προσαρμώσει τον κώδικά μας στις ανάγκες του. Επόμενο είναι λοιπόν, κάποιος που θέλει να είναι ηθικός, να τον πάρει, να μας δώσει credits που είναι απαραίτητα λόγω του MIT lisence που θα χρησιμοποοιήσουμε, και με ελάχιστες αλλαγές στον κώδικα, να ανεβάσει την τιμή της συνδρομής από τα 10 στα 50 ευρώ το μήνα, τιμή και πάλι κάτω του κόστους. Και με τα έξτρα χρήματα να μας καπελώσει στην προβολή και τα υπόλοιπα να είναι ιστορία. Σε αυτή την περίπτωση δε θα μπορώ να κάνω κάτι, πέρα από το να στραφώ προς την κοινότητα και να ζητήσω στήριξη αν ενστερνίζεται τις αξίες μας.<br>
+Δε ζούμε όμως σε ένα ηθικό (επιχειρηματικό) κόσμο. Οι πιθανότητες λένε πως αν κάποιος ψάχνει το εύκολο κέρδος και έχει ένα αρχικό κεφάλαιο να διαθέσει, να πάρει την ιδέα carbon από αυτό εδώ το site, να την αναθέσει σε μια ομάδα επαγγελματιών, χωρίς καμία αναφορά στο αρχικό project φυσικά, και μην τα πολυλογώ, θα βρει τρόπους να χεστεί στο τάληρο, που λέμε και στο χωριό μου.<br>
+Επέκταση αυτής της κατάστασης θα ήταν να απευθυνθεί το σαϊνι αυτό στο κατά τα άλλα ίδρυμα πολιτισμού Σταύρος Νιάρχος με σκοπό να έχει πρόσβαση στη λίστα ISBN την οποία εμένα μου αρνήθηκαν ευγενικά. Λόγω κάποιων κάπως ιδεολυπτικών αντιλήψεων, πιστεύω πως όταν κάποιος μεγαλοεπιχειρηματίας ,με πρόφαση το πολιτιστικό έργο, απευθύνεται σε ένα ίδρυμα πολιτισμού, η δωρεά από πλευράς του δεύτερου είναι μονόδρομος.<br>
+Ξαναλέω, εδώ είμαστε για να τα κρίνουμε όλα αυτά, όταν και αν συμβούν.</p>
+
                 </div>
             </div>
             
